@@ -1,0 +1,103 @@
+a {
+    text-decoration: none !important;
+    color: black;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+.main-title{
+    margin-top: 8em;
+    margin-bottom: 3em;
+    margin-left: 4em;
+    font-weight: 700;
+}
+
+.col:hover {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.836) !important;
+    text-align: center;
+}
+
+.navbar
+{
+    position: fixed; 
+	width: 100%; 
+	height: auto; 
+	background-color: transparent !important; 
+	top:0;
+	margin:0 0;
+    transition: top 0.45s ease-in-out;
+    z-index: 1000 !important;
+    /* padding-left: 1em; */
+
+}
+
+#logo{
+    margin-left: 1em;
+    z-index: 100;
+}
+
+.navbar-brand{
+    padding-left: 3rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    z-index: 1000;
+}
+
+.navbar-toggler{
+    border: none;
+    text-decoration: none !important;
+    margin-right: 1em;
+}
+
+button:focus {outline:0;}
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url(
+"data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(0, 0, 0)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 5;
+    top: 0;
+    right: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 7em;
+  }
+  
+  .sidenav a {
+    text-decoration: none;
+    font-size: 1.1em;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+
+  .menu-item{
+      padding-top: 2em;
+      padding-left: 2em;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 1em;
+    font-size: 3em;
+  }
+  
+  /* @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  } */
