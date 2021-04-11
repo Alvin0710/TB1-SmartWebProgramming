@@ -144,3 +144,31 @@ button:focus {outline:0;}
   hr.dashed {
     border-top: 3px dashed #bbb;
   }
+
+  .column1 {
+    float: left;
+    text-align: right;
+    width: 50%;
+    padding: 10px;
+  }
+  .column2 {
+    float: left;
+    text-align: left;
+    width: 50%;
+    padding: 10px;
+  }
+
+  .button {
+    background-color: #555555;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 28px;
+    margin: 4px 2px;
+    cursor: pointer;
+    height: 200px;
+    width: 80%;
+  }
