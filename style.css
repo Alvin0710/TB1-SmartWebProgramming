@@ -109,6 +109,40 @@ button:focus {outline:0;}
   font-size: 3em;
 }
 
+footer
+{
+ width: 100%; 
+ height: auto; 
+ background-color: transparent !important; 
+ bottom:0;
+ margin:0 0;
+   z-index: 1000 !important;
+   /* padding-left: 1em; */
+
+}
+ 
+ #footer-text{
+     margin: 2em;
+ }
+
+ .link-footer{
+     color: rgba(255, 255, 255, 0.500);
+ }
+
+ .link-footer:hover{
+     color: white !important;
+ }
+
+ .icon-footer{
+   filter: invert(95%) sepia(97%) saturate(14%) hue-rotate(213deg) brightness(104%) contrast(104%);
+   margin-right: 1em;
+ }
+
+ .icon-footer-s{
+   filter: invert(95%) sepia(97%) saturate(14%) hue-rotate(213deg) brightness(104%) contrast(104%);
+   margin-right: 1em;
+   margin-left: 1em;
+
 /* =========================================================================== */
 
   * {
