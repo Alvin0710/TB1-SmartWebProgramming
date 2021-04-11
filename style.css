@@ -142,7 +142,8 @@ footer
    filter: invert(95%) sepia(97%) saturate(14%) hue-rotate(213deg) brightness(104%) contrast(104%);
    margin-right: 1em;
    margin-left: 1em;
-
+ }
+ 
 /* =========================================================================== */
 
   * {
