@@ -19,74 +19,51 @@
 <!-- Footer -->
 <footer class="page-footer font-small pt-4 bg-dark text-white">
         <!-- Footer Links -->
-        <div class="container text-center text-md-left">
+        <div class="text-center text-md-left">
             <!-- Grid row -->
-            <div class="row">
+            <div class="row" id="footer-text">
                 <hr class="clearfix w-100 d-md-none pb-3">
+
                 <!-- Grid column -->
-                <div class="col-md-3 mb-md-0 mb-3">
+                <div class="col-lg-4 col-sm-2 col-md-6">
+                <img src="images/asterisk.svg" alt="" id="logo-footer" width="30" height="30" class="d-inline-block align-top">
+                <h5><b>Islam is Love</b></h5><br>
+                <p style="color: rgba(255, 255, 255, 0.500);">© 2021 Copyright by Inslamorphosis. <br> All Rights Reserved.</p>
+                </div>
+
+                <!-- Grid column -->
+                <div class="col-lg-4 col-sm-2 col-md-6">
                     <!-- Links -->
-                    <h5 class="text-uppercase">Center Book Study</h5>
+                    <h5 class="text-uppercase">CONTACT US</h5><br><br>
                     <ul class="list-unstyled">
-                        <li>
-                            <a href="#" data-page="home.html">Home</a>
-                        </li>
-                        <li>
-                            <a href="#!" data-page="new_book.html">New Book</a>
-                        </li>
-                        <li>
-                            <a href="#!" data-page="news.html">News</a>
-                        </li>
-                        <li>
-                            <a href="#!">Business</a>
-                        </li>
+                        <div class="row">
+                        <img src="images/envelope.svg" class="icon-footer" width="23" height="23" alt="">
+                        <a class="link-footer" href=""><p>muslimorphosis@gmail.com</p></a>
+                        </div>
+
+                        <div class="row">
+                        <img src="images/phone-alt.svg" class="icon-footer" width="20" height="20" alt="">
+                        <a class="link-footer" href=""><p>+62 821 2121 0808</p></a>
+                        </div>
                     </ul>
                 </div>
-                <!-- Grid column -->
-                <!-- Grid column -->
-                <div class="col-md-3 mb-md-0 mb-3">
+
+                <div class="col-lg-4 col-sm-2 col-md-6">
                     <!-- Links -->
-                    <h5 class="text-uppercase">Service and Application</h5>
-                    <ul class="list-unstyled">
-                        <li>
-                            <a href="#!">Download Application</a>
-                        </li>
-                        <li>
-                            <a href="#!">Web Service</a>
-                        </li>
-                        <li>
-                            <a href="#!">News</a>
-                        </li>
-                        <li>
-                            <a href="#!">Relasion</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-md-3 mb-md-0 mb-3">
-                    <!-- Links -->
-                    <h5 class="text-uppercase">Follow Us</h5>
-                    <ul class="list-unstyled">
-                        <li>
-                            <a href="#!">Twitter</a>
-                        </li>
-                        <li>
-                            <a href="#!">Instagram</a>
-                        </li>
-                        <li>
-                            <a href="#!">Pinterest</a>
-                        </li>
-                        <li>
-                            <a href="#!">Youtube</a>
-                        </li>
-                    </ul>
+                    <div class="row">
+                        <a href=""><img src="images/instagram.svg" class="icon-footer-s" width="25" height="25" alt=""></a>
+                        <a href=""><img src="images/facebook.svg" class="icon-footer-s" width="25" height="25" alt=""></a>
+                        <a href=""><img src="images/twitter.svg" class="icon-footer-s" width="25" height="25" alt=""></a>
+                        <a href=""><img src="images/whatsapp.svg" class="icon-footer-s" width="25" height="25" alt=""></a>
+                    </div>
                 </div>
             </div>
             <!-- Grid row -->
         </div>
         <!-- Copyright -->
-        <div class="footer-copyright text-center text-white py-3 ">
-            © 2021 Copyright
-        </div>
+        <!-- <div class="footer-copyright text-center text-white py-3 ">
+            © 2021 Copyright by Inslamorphosis. All Rights Reserved.
+        </div> -->
     </footer>
 
 <?php

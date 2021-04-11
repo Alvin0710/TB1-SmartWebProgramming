@@ -32,7 +32,6 @@
             <a class="menu-item" href="ceramah.php">CERAMAH</a>
             <a class="menu-item" href="tebak.php">TEBAK AYAT AL-QUR'AN</a>
             <a class="menu-item" href="about.php">ABOUT US</a>
-            <a class="menu-item" href="contact.php">CONTACT US</a>
         </div>
     </nav>
 
