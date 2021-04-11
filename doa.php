@@ -81,7 +81,7 @@
   <!-- Modal content -->
   <div class="modal-content">
     <span class="close">&times;</span>
-    <p>Some text in the Modal..</p>
+    <p align="center"><b>DOA SEBELUM MAKAN</b></p>
   </div>
 
 </div>
