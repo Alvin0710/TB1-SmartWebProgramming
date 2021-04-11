@@ -82,6 +82,8 @@
   <div class="modal-content">
     <span class="close">&times;</span>
     <p align="center"><b>DOA SEBELUM MAKAN</b></p>
+    <p>sadjhsjfkbskagfaksbdhksbadsabdsbdjsadsjdnsdsdsdsds</p>
+    <p>sadjhsjfkbskagfaksbdhksbadsabdsbdjsadsjdnsdsdsdsds</p>
   </div>
 
 </div>
