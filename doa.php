@@ -3,6 +3,7 @@
 <head>
   <title>Change URL without reloading page using ajax & PHP</title>
   <style type="text/css" href="style.css"></style>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
 
@@ -23,6 +24,13 @@
         </div>
     </div>
 </class>
+
+<hr class="dashed">
+
+<form class="example" action="/action_page.php" style="margin:auto;max-width:900px">
+  <input type="text" placeholder="Search.." name="search2">
+  <button type="submit"><i class="fa fa-search"></i></button>
+</form>
     
 </div>
 <?php
