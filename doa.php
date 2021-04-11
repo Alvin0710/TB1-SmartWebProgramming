@@ -33,6 +33,54 @@
 </form>
     
 </div>
+
+<br>
+<br>
+
+<div class="row">
+  <div class="column1">
+    <button class="button">Doa Sebelum Makan</button>
+  </div>
+  <div class="column2">
+    <button class="button">Doa Sesudah Makan</button>
+  </div>
+</div>
+<div class="row">
+  <div class="column1">
+    <button class="button">Doa Ketika Lupa Membaca Doa Sebelum Makan</button>
+  </div>
+  <div class="column2">
+    <button class="button">Doa Sebelum Tidur</button>
+  </div>
+</div>
+<div class="row">
+  <div class="column1">
+    <button class="button">Doa Ketika Mendapat Mimpi Buruk</button>
+  </div>
+  <div class="column2">
+    <button class="button">Doa Ketika Mendapat Mimpi Baik</button>
+  </div>
+</div>
+<div class="row">
+  <div class="column1">
+    <button class="button">Doa Masuk Kamar Mandi</button>
+  </div>
+  <div class="column2">
+    <button class="button">Doa Keluar Kamar Mandi</button>
+  </div>
+</div>
+<div class="row">
+  <div class="column1">
+    <button class="button">Doa Memohon Ilmu Yang Bermanfaat</button>
+  </div>
+  <div class="column2">
+    <button class="button">Doa Sebelum Belajar</button>
+  </div>
+</div>
+
+<br>
+<br>
+
 <?php
 
 include('footer.php');
