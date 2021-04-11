@@ -14,8 +14,7 @@
 <?php
     if(empty($_GET['page'])){
 ?>
-
-        <nav class="navbar navbar-light bg-white fixed-top mr-auto">
+    <nav class="navbar navbar-light bg-white fixed-top mr-auto" id="myNavBar">
         <a href="index.php"><img src="images/asterisk.svg" alt="" id="logo" width="30" height="30" class="d-inline-block align-top"></a>
         <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse"
             data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false"

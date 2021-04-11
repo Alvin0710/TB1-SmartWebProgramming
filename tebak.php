@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Change URL without reloading page using ajax & PHP</title>
+  <title>Tabak Ayat Al-Qur'an</title>
   <style type="text/css" href="style.css"></style>
 </head>
 <body>

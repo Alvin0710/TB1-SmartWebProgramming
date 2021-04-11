@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Change URL without reloading page using ajax & PHP</title>
+  <title>Jadwal Sholat</title>
   <style type="text/css" href="style.css"></style>
 </head>
 <body>
@@ -28,7 +28,7 @@
 <form class="example" action="/action_page.php" style="margin:auto;max-width:900px">
   <input type="text" placeholder="Tulis nama kotamu .." name="search2">
   <button type="submit"><i class="fa fa-search"></i></button>
-</form><br><br>
+</form><br><br><br>
 </div>
     
 <div class="container">
