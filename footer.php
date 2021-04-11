@@ -27,7 +27,7 @@
                 <!-- Grid column -->
                 <div class="col-lg-4 col-sm-2 col-md-6">
                 <img src="images/asterisk.svg" alt="" id="logo-footer" width="30" height="30" class="d-inline-block align-top">
-                <h5><b>Islam is Love</b></h5><br>
+                <h5><b>Islam is Love</b></h5>
                 <p style="color: rgba(255, 255, 255, 0.500);">© 2021 Copyright by Inslamorphosis. <br> All Rights Reserved.</p>
                 </div>
 
@@ -51,10 +51,10 @@
                 <div class="col-lg-4 col-sm-2 col-md-6">
                     <!-- Links -->
                     <div class="row">
-                        <a href=""><img src="images/instagram.svg" class="icon-footer-s" width="25" height="25" alt=""></a>
-                        <a href=""><img src="images/facebook.svg" class="icon-footer-s" width="25" height="25" alt=""></a>
-                        <a href=""><img src="images/twitter.svg" class="icon-footer-s" width="25" height="25" alt=""></a>
-                        <a href=""><img src="images/whatsapp.svg" class="icon-footer-s" width="25" height="25" alt=""></a>
+                        <a href=""><div class="bg-icon"><img src="images/instagram.svg" class="icon-footer-s" width="25" height="25" alt=""></div></a>
+                        <a href=""><div class="bg-icon"><img src="images/facebook.svg" class="icon-footer-s" width="25" height="25" alt=""></div></a>
+                        <a href=""><div class="bg-icon"><img src="images/twitter.svg" class="icon-footer-s" width="25" height="25" alt=""></div></a>
+                        <a href=""><div class="bg-icon"><img src="images/whatsapp.svg" class="icon-footer-s" width="25" height="25" alt=""></div></a>
                     </div>
                 </div>
             </div>
