@@ -84,6 +84,7 @@ button:focus {outline:0;}
   .menu-item{
       padding-top: 2em;
       padding-left: 2em;
+      cursor: pointer;
   }
   
   .sidenav a:hover {
