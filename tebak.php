@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Tabak Ayat Al-Qur'an</title>
+  <title>Tebak Ayat Al-Qur'an</title>
   <style type="text/css" href="style.css"></style>
 </head>
 <body>
