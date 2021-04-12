@@ -38,42 +38,42 @@
 <div class="container">
   <div class="row">
     <div class="column1">
-      <button class="button">Nabi Adam AS</button>
+      <button class="button" onclick="location.href = 'kisah-detail.php'">Nabi Adam AS</button>
     </div>
     <div class="column2">
-      <button class="button">Nabi Idris AS</button>
+      <button class="button" onclick="location.href = 'kisah-detail.php'">Nabi Idris AS</button>
     </div>
   </div>
   <div class="row">
     <div class="column1">
-      <button class="button">Nabi Nuh AS</button>
+      <button class="button" onclick="location.href = 'kisah-detail.php'">Nabi Nuh AS</button>
     </div>
     <div class="column2">
-      <button class="button">Nabi Hud AS</button>
+      <button class="button" onclick="location.href = 'kisah-detail.php'">Nabi Hud AS</button>
     </div>
   </div>
   <div class="row">
     <div class="column1">
-      <button class="button">Nabi Sholeh AS</button>
+      <button class="button" onclick="location.href = 'kisah-detail.php'">Nabi Sholeh AS</button>
     </div>
     <div class="column2">
-      <button class="button">Nabi Ibrahim AS</button>
+      <button class="button" onclick="location.href = 'kisah-detail.php'">Nabi Ibrahim AS</button>
     </div>
   </div>
   <div class="row">
     <div class="column1">
-      <button class="button">Nabi Luth AS</button>
+      <button class="button" onclick="location.href = 'kisah-detail.php'">Nabi Luth AS</button>
     </div>
     <div class="column2">
-      <button class="button">Nabi Ismail AS</button>
+      <button class="button" onclick="location.href = 'kisah-detail.php'">Nabi Ismail AS</button>
     </div>
   </div>
   <div class="row">
     <div class="column1">
-      <button class="button">Nabi Ishaq AS</button>
+      <button class="button" onclick="location.href = 'kisah-detail.php'">Nabi Ishaq AS</button>
     </div>
     <div class="column2">
-      <button class="button">Nabi Yakub AS</button>
+      <button class="button" onclick="location.href = 'kisah-detail.php'">Nabi Yakub AS</button>
     </div>
   </div>
 </div>
