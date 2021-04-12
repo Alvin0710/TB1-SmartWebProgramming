@@ -33,34 +33,34 @@
 </div><br><br>
 
 <div class="row quran-row-main">
-    <div class="col-lg-3 col-sm-1 col-md-6 quran-box">
+    <a href="" class="col-lg-3 col-sm-1 col-md-6 quran-box">
         <p class="name-surah"><b>1. Al-Fatihah (7)</b></p>
         <p class="arti-surah">Pembukaan</p>
-    </div>
-    <div class="col-lg-3 col-sm-1 col-md-6 quran-box">
+    </a>
+    <a href="" class="col-lg-3 col-sm-1 col-md-6 quran-box">
         <p class="name-surah"><b>2. Al-Baqarah (286)</b></p>
         <p class="arti-surah">Sapi Betina</p>
-    </div>
-    <div class="col-lg-3 col-sm-1 col-md-6 quran-box">
+    </a>
+    <a href="" class="col-lg-3 col-sm-1 col-md-6 quran-box">
         <p class="name-surah"><b>3. Ali 'Imran (200)</b></p>
         <p class="arti-surah">Keluarga Imran</p>
-    </div>
-    <div class="col-lg-3 col-sm-1 col-md-6 quran-box">
+    </a>
+    <a href="" class="col-lg-3 col-sm-1 col-md-6 quran-box">
         <p class="name-surah"><b>4. An-Nisa (176)</b></p>
         <p class="arti-surah">Wanita</p>
-    </div>
-    <div class="col-lg-3 col-sm-1 col-md-6 quran-box">
+    </a>
+    <a href="" class="col-lg-3 col-sm-1 col-md-6 quran-box">
         <p class="name-surah"><b>5. Al-Maidah (120)</b></p>
         <p class="arti-surah">Hidangan</p>
-    </div>
-    <div class="col-lg-3 col-sm-1 col-md-6 quran-box">
+    </a>
+    <a href="" class="col-lg-3 col-sm-1 col-md-6 quran-box">
         <p class="name-surah"><b>6. Al-An'am (165)</b></p>
         <p class="arti-surah">Binatang Ternak</p>
-    </div>
-    <div class="col-lg-3 col-sm-1 col-md-6 quran-box">
+    </a>
+    <a href="" class="col-lg-3 col-sm-1 col-md-6 quran-box">
         <p class="name-surah"><b>7. Al-A'raf (206)</b></p>
         <p class="arti-surah">Tempat yang Tinggi</p>
-    </div>
+    </a>
 
 </div>
     
