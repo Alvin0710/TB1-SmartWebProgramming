@@ -24,7 +24,62 @@
         </div>
     </div>
 </class>
+
+<div class="container">
+  <form class="example" action="/action_page.php" style="margin:auto;max-width:900px">
+    <input type="text" placeholder="Search.." name="search2">
+    <button type="submit"><i class="fa fa-search"></i></button>
+  </form>
+</div><br><br>
+
+<div class="row quran-row-main">
+    <div class="col-lg-3 col-sm-1 col-md-6 quran-box">
+        <p class="name-surah"><b>1. Al-Fatihah (7)</b></p>
+        <p class="arti-surah">Pembukaan</p>
+    </div>
+    <div class="col-lg-3 col-sm-1 col-md-6 quran-box">
+        <p>Al-Fatihah</p>
+    </div>
+    <div class="col-lg-3 col-sm-1 col-md-6 quran-box">
+        <p>Al-Fatihah</p>
+    </div>
+
+    <div class="col-lg-3 col-sm-1 col-md-6 quran-box">
+        <p>Al-Fatihah</p>
+    </div>
+    <div class="col-lg-3 col-sm-1 col-md-6 quran-box">
+        <p>Al-Fatihah</p>
+    </div>
+    <div class="col-lg-3 col-sm-1 col-md-6 quran-box">
+        <p>Al-Fatihah</p>
+    </div>
+
+    <div class="col-lg-3 col-sm-1 col-md-6 quran-box">
+        <p>Al-Fatihah</p>
+    </div>
+    <div class="col-lg-3 col-sm-1 col-md-6 quran-box">
+        <p>Al-Fatihah</p>
+    </div>
+    <div class="col-lg-3 col-sm-1 col-md-6 quran-box">
+        <p>Al-Fatihah</p>
+    </div>
+
+    <div class="col-lg-3 col-sm-1 col-md-6 quran-box">
+        <p>Al-Fatihah</p>
+    </div>
+    <div class="col-lg-3 col-sm-1 col-md-6 quran-box">
+        <p>Al-Fatihah</p>
+    </div>
+    <div class="col-lg-3 col-sm-1 col-md-6 quran-box">
+        <p>Al-Fatihah</p>
+    </div>
+
+</div>
     
+</div>
+
+<br>
+<br>
 </div>
 <?php
 

@@ -300,10 +300,6 @@ form.example::after {
 }
 
 /* ============================== ceramah.php ================================== */
-.ceramah-box{
-  /* margin-right: 3em; */
-  /* margin-left: 5em; */
-}
 
 iframe{
   /* display: block; */
@@ -319,4 +315,31 @@ iframe{
   justify-content: center;
   margin-right: auto;
   margin-left: auto;
+}
+
+
+/* ======================================= quran.php ======================================= */
+.quran-box{
+  background-color: #999999;
+  margin-left: .5em;
+  margin-right: .5em;
+  margin-bottom: 1em;
+  height: 5em;
+}
+
+.quran-row-main{
+  display: flex;
+  justify-content: center;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.name-surah{
+  position: absolute;
+  top: 25%;
+}
+
+.arti-surah{
+  position: absolute;
+  top: 50%;
 }
