@@ -42,7 +42,7 @@ window.onscroll = function() {
                 <div class="col-lg-4 col-sm-2 col-md-6">
                 <img src="images/asterisk.svg" alt="" id="logo-footer" width="30" height="30" class="d-inline-block align-top">
                 <h5><b>Islam is Love</b></h5>
-                <p style="color: rgba(255, 255, 255, 0.500);">© 2021 Copyright by Inslamorphosis. <br> All Rights Reserved.</p>
+                <p style="color: rgba(255, 255, 255, 0.500);">© 2021 Copyright by Muslimorphosis. <br> All Rights Reserved.</p>
                 </div>
 
                 <!-- Grid column -->
@@ -52,7 +52,7 @@ window.onscroll = function() {
                     <ul class="list-unstyled">
                         <div class="row">
                         <img src="images/envelope.svg" class="icon-footer" width="23" height="23" alt="">
-                        <a class="link-footer" href=""><p>muslimorphosis@gmail.com</p></a>
+                        <a class="link-footer" href=""><p>contact@muslimorphosis.com</p></a>
                         </div>
 
                         <div class="row">
