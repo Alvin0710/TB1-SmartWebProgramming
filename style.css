@@ -9,10 +9,17 @@ html, body {
   /* overflow-x: hidden; */
 }
 
+.main-row{
+  overflow-x: hidden;
+}
+
 body {
   margin: 0;
   padding: 0;
 }
+
+
+/* ============================ index.php ================================ */
 
 section {
   width: 100%;
@@ -42,10 +49,6 @@ section {
     filter: grayscale(100%);
 }
 
-.main-row{
-  overflow-x: hidden;
-}
-
 .col:hover {
   color: white;
   background-color: rgba(0, 0, 0, 0.836) !important;
@@ -53,28 +56,19 @@ section {
   filter: grayscale(0%);
 }
 
-.navbar
-{
+
+/* ================================ header.php ====================================================== */
+
+.navbar {
   position: fixed; 
-width: 100%; 
-height: auto; 
-background-color: transparent !important; 
-top:0;
-margin:0 0;
+  width: 100%; 
+  height: auto; 
+  background-color: transparent !important; 
+  top:0;
+  margin:0 0;
   transition: top 0.45s ease-in-out;
   z-index: 1000 !important;
   /* padding-left: 1em; */
-
-}
-
-#logo{
-  margin-left: 1em;
-  z-index: 100;
-}
-
-#logo-footer{
-  filter: invert(95%) sepia(97%) saturate(14%) hue-rotate(213deg) brightness(104%) contrast(104%);
-  margin-bottom: 3em;
 }
 
 .navbar-brand{
@@ -82,6 +76,11 @@ margin:0 0;
   padding-top: 1rem;
   padding-bottom: 1rem;
   z-index: 1000;
+}
+
+#logo{
+  margin-left: 1em;
+  z-index: 100;
 }
 
 .navbar-toggler{
@@ -135,92 +134,99 @@ button:focus {outline:0;}
   font-size: 3em;
 }
 
+
+/* ============================ footer.php ================================================ */
+
+#logo-footer{
+  filter: invert(95%) sepia(97%) saturate(14%) hue-rotate(213deg) brightness(104%) contrast(104%);
+  margin-bottom: 3em;
+}
+
 footer
 {
- width: 100%; 
- height: auto; 
- background-color: transparent !important; 
- bottom:0;
- margin:0 0;
-   z-index: 1000 !important;
-   /* padding-left: 1em; */
-
+  width: 100%; 
+  height: auto; 
+  background-color: transparent !important; 
+  bottom:0;
+  margin:0 0;
+  z-index: 1000 !important;
+  /* padding-left: 1em; */
 }
  
- #footer-text{
-     margin: 2em;
- }
+#footer-text{
+   margin: 2em;
+}
 
- .link-footer{
-     color: rgba(255, 255, 255, 0.500);
- }
+.link-footer{
+   color: rgba(255, 255, 255, 0.500);
+}
 
- .link-footer:hover{
-     color: white !important;
- }
+.link-footer:hover{
+   color: white !important;
+}
 
- .icon-footer{
-   filter: invert(95%) sepia(97%) saturate(14%) hue-rotate(213deg) brightness(104%) contrast(104%);
-   margin-right: 1em;
- }
+.icon-footer{
+  filter: invert(95%) sepia(97%) saturate(14%) hue-rotate(213deg) brightness(104%) contrast(104%);
+  margin-right: 1em;
+}
 
- .icon-footer-s{
-   filter: invert(95%) sepia(97%) saturate(14%) hue-rotate(213deg) brightness(104%) contrast(104%);
- }
+.icon-footer-s{
+  filter: invert(95%) sepia(97%) saturate(14%) hue-rotate(213deg) brightness(104%) contrast(104%);
+}
 
- .bg-icon{
-   padding: .5em !important;
-   margin-right: .5em;
-   margin-left: .5em;
-   border-radius: 100%;
- }
+.bg-icon{
+  padding: .5em !important;
+  margin-right: .5em;
+  margin-left: .5em;
+  border-radius: 100%;
+}
 
- .bg-icon:hover{
-    background-color:rgba(255, 255, 255, 0.212);
- }
+.bg-icon:hover{
+  background-color:rgba(255, 255, 255, 0.212);
+}
+
 
 /* =========================================================================== */
 
-  * {
-    box-sizing: border-box;
-  }
+* {
+  box-sizing: border-box;
+}
   
-  form.example input[type=text] {
-    padding: 10px;
-    font-size: 17px;
-    border: 1px solid grey;
-    float: left;
-    width: 80%;
-    background: #f1f1f1;
-  }
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+}
 
-  form.example button {
-    float: left;
-    width: 20%;
-    padding: 10px;
-    background: #f1f1f1;
-    color: black;
-    font-size: 17px;
-    border: 1px solid grey;
-    border-left: none;
-    cursor: pointer;
-  }
+form.example button {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: #f1f1f1;
+  color: black;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+}
   
-  form.example button:hover {
-    background: grey;
-  }
+form.example button:hover {
+  background: grey;
+}
   
-  
-  form.example::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
 
-  /* Dashed border */
+  /* Dashed border
   hr.dashed {
     border-top: 3px dashed #bbb;
-  }
+  } */
 
   .column1 {
     float: left;
