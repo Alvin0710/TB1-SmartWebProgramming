@@ -320,11 +320,12 @@ iframe{
 
 /* ======================================= quran.php ======================================= */
 .quran-box{
-  background-color: #999999;
+  background-color: #636363;
   margin-left: .5em;
   margin-right: .5em;
   margin-bottom: 1em;
   height: 5em;
+  color: white;
 }
 
 .quran-row-main{
