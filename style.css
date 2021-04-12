@@ -46,15 +46,28 @@ section {
     /* width: 50%; */
     display: flex;
     justify-content: center;
-    filter: grayscale(100%);
+
+}
+
+.col{
+  filter: grayscale(100%);
 }
 
 .col:hover {
-  color: white;
+  color: white !important;
   background-color: rgba(0, 0, 0, 0.836) !important;
   text-align: center;
   filter: grayscale(0%);
 }
+
+/* 
+.box-menu{
+  filter: grayscale(100%);
+}
+
+.box-menu:hover{
+  filter: grayscale(0%);
+} */
 
 
 /* ================================ header.php ====================================================== */
