@@ -45,32 +45,24 @@
     <div class="column2">
       <button class="button" id="myBtn1">Doa Sesudah Makan</button>
     </div>
-  </div>
-  <div class="row">
     <div class="column1">
       <button class="button" id="myBtn2">Doa Ketika Lupa Membaca Doa Sebelum Makan</button>
     </div>
     <div class="column2">
       <button class="button" id="myBtn3">Doa Sebelum Tidur</button>
     </div>
-  </div>
-  <div class="row">
     <div class="column1">
       <button class="button" id="myBtn4">Doa Ketika Mendapat Mimpi Buruk</button>
     </div>
     <div class="column2">
       <button class="button" id="myBtn5">Doa Ketika Mendapat Mimpi Baik</button>
     </div>
-  </div>
-  <div class="row">
     <div class="column1">
       <button class="button" id="myBtn6">Doa Masuk Kamar Mandi</button>
     </div>
     <div class="column2">
       <button class="button" id="myBtn7">Doa Keluar Kamar Mandi</button>
     </div>
-  </div>
-  <div class="row">
     <div class="column1">
       <button class="button" id="myBtn8">Doa Memohon Ilmu Yang Bermanfaat</button>
     </div>
