@@ -34,19 +34,19 @@
 
 
 <div class="row ceramah-row-main">
-    <div class="col-lg-5 col-sm-2 col-md-6 ceramah-box">
+    <div class="col-lg-5 col-sm-2 col-md-6">
         <iframe src="https://www.youtube.com/embed/89XQC7ey8DU"></iframe>
     </div>
 
-    <div class="col-lg-5 col-sm-2 col-md-6 ceramah-box">
+    <div class="col-lg-5 col-sm-2 col-md-6">
         <iframe src="https://www.youtube.com/embed/T5KbPoSFaME"></iframe>
     </div>
     
-    <div class="col-lg-5 col-sm-2 col-md-6 ceramah-box">
+    <div class="col-lg-5 col-sm-2 col-md-6">
         <iframe src="https://www.youtube.com/embed/X3_eAId-XaM"></iframe>
     </div>
 
-    <div class="col-lg-5 col-sm-2 col-md-6 ceramah-box">
+    <div class="col-lg-5 col-sm-2 col-md-6">
         <iframe src="https://www.youtube.com/embed/JOML0AGrTNU"></iframe>
     </div>
     </div>

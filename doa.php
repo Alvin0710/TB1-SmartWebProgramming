@@ -37,7 +37,7 @@
 <br>
 
 
-<div class="container">
+<!-- <div class="container">
   <div class="row">
     <div class="column1">
       <button class="button" id="myBtn">Doa Sebelum Makan</button>
@@ -70,26 +70,82 @@
       <button class="button" id="myBtn9">Doa Sebelum Belajar</button>
     </div>
   </div>
+</div> -->
+
+<div class="row doa-row-main">
+    <div class="col-lg-5 col-sm-1 col-md-5 doa-box pointer" data-toggle="modal" data-target="#myModal">
+      <h4 class="name-doa"><b>Doa Sebelum Makan</b></h4>
+    </div>
+    <div class="col-lg-5 col-sm-1 col-md-5 doa-box pointer" data-toggle="modal" data-target="#myModal">
+        <h4 class="name-doa"><b>Doa Sesudah Makan</b></h4>
+    </div>
+    <div class="col-lg-5 col-sm-1 col-md-5 doa-box pointer" data-toggle="modal" data-target="#myModal">
+        <h4 class="name-doa"><b>Doa Ketika Lupa Membaca Doa Sebelum Makan</b></h4>
+    </div>
+    <div class="col-lg-5 col-sm-1 col-md-5 doa-box pointer" data-toggle="modal" data-target="#myModal">
+        <h4 class="name-doa"><b>Doa Sebelum Tidur</b></h4>
+    </div>
+    <div class="col-lg-5 col-sm-1 col-md-5 doa-box pointer" data-toggle="modal" data-target="#myModal">
+        <h4 class="name-doa"><b>Doa Ketika Mendapat Mimpi Buruk</b></h4>
+    </div>
+    <div class="col-lg-5 col-sm-1 col-md-5 doa-box pointer" data-toggle="modal" data-target="#myModal">
+        <h4 class="name-doa"><b>Doa Ketika Mendapat Mimpi Baik</b></h4>
+    </div>
+    <div class="col-lg-5 col-sm-1 col-md-5 doa-box pointer" data-toggle="modal" data-target="#myModal">
+        <h4 class="name-doa"><b>Doa Masuk Kamar Mandi</b></h4>
+    </div>
+    <div class="col-lg-5 col-sm-1 col-md-5 doa-box pointer" data-toggle="modal" data-target="#myModal">
+        <h4 class="name-doa"><b>Doa Memohon Ilmu Yang Bermanfaat</b></h4>
+    </div>
+    <div class="col-lg-5 col-sm-1 col-md-5 doa-box pointer" data-toggle="modal" data-target="#myModal">
+        <h4 class="name-doa"><b>Doa Sebelum Belajar</b></h4>
+    </div>
 </div>
 
+<!-- The Modal -->
+<div class="modal fade" id="myModal">
+    <div class="modal-dialog modal-xl">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">DO'A SEBELUM MAKAN</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+        <p align="right">اَللّٰهُمَّ بَارِكْ لَنَا فِيْمَا رَزَقْتَنَا وَقِنَا عَذَابَ النَّارِ</p>
+        <p><i>Alloohumma barik lanaa fiimaa razatanaa waqinaa 'adzaa bannar</i></p>
+        <p>"Ya Allah, berkahilah kami dalam rezeki yang telah Engkau berikan kepada kami dan peliharalah kami dari siksa api neraka"</p>
+        </div>
+        
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+        
+      </div>
+    </div>
+</div>
 
-<div class="container">
-  <!-- The Modal -->
+<!-- <div class="container">
+  <-- The Modal --
   <div id="myModal" class="modal">
 
-    <!-- Modal content -->
+    !-- Modal content --
     <div class="modal-content">
       <span class="close">&times;</span>
       <div style="padding: 6em;">
         <p align="center"><b>JUDUL DOA</b></p>
-        <p align="right">اَللّٰهُمَّ بَارِكْ لَنَا فِيْمَا رَزَقْتَنَا وَقِنَا عَذَابَ النَّارِ</p>
+        <h1 align="right">اَللّٰهُمَّ بَارِكْ لَنَا فِيْمَا رَزَقْتَنَا وَقِنَا عَذَابَ النَّارِ</h1>
         <p><i>Alloohumma barik lanaa fiimaa razatanaa waqinaa 'adzaa bannar</i></p>
         <p>"Ya Allah, berkahilah kami dalam rezeki yang telah Engkau berikan kepada kami dan peliharalah kami dari siksa api neraka"</p>
       </div>
     </div>
 
   </div>
-</div>
+</div> -->
 
 <br>
 <br>
@@ -100,7 +156,7 @@ include('footer.php');
 ?>
 
 
-<script>
+<!-- <script>
 // Get the modal
 var modal = document.getElementById("myModal");
 
@@ -171,7 +227,7 @@ window.onclick = function(event) {
     modal.style.display = "none";
   }
 }
-</script>
+</script> -->
 
 </body>
 </html>

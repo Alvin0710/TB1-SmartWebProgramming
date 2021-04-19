@@ -49,6 +49,9 @@ section {
 
 }
 
+.pointer {
+  cursor: pointer;}
+
 .col{
   filter: grayscale(100%);
 }
@@ -297,6 +300,43 @@ form.example::after {
   color: #000;
   text-decoration: none;
   cursor: pointer;
+}
+
+/* ================================ doa.php ======================================= */
+.name-doa{
+  position: absolute;
+  top: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5em;
+  width: 100%;
+}
+
+.doa-row-main{
+  display: flex;
+  justify-content: center;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.doa-box{
+  background-color: white;
+  border: 2px solid #636363;
+  padding-left: 3em;
+  margin-left: .5em;
+  margin-right: .5em;
+  margin-bottom: 1em;
+  height: 13em;
+  color: #636363;
+}
+
+.doa-box:hover{
+  background-color: #636363;
+  color: white;
+}
+
+.modal-backdrop {
+  z-index: -1;
 }
 
 /* ============================== ceramah.php ================================== */
