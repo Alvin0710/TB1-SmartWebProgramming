@@ -35,10 +35,43 @@
 <br>
 <br>
 
-<div class="container">
+<div class="row doa-row-main">
+    <a href="kisah-detail.php" class="col-lg-5 col-sm-1 col-md-5 doa-box pointer">
+      <h4 class="name-doa"><b>Nabi Adam AS</b></h4>
+    </a>
+    <a href="kisah-detail.php" class="col-lg-5 col-sm-1 col-md-5 doa-box pointer">
+        <h4 class="name-doa"><b>Nabi Idris AS</b></h4>
+    </a>
+    <a href="kisah-detail.php" class="col-lg-5 col-sm-1 col-md-5 doa-box pointer">
+        <h4 class="name-doa"><b>Nabi Nuh AS</b></h4>
+    </a>
+    <a href="kisah-detail.php" class="col-lg-5 col-sm-1 col-md-5 doa-box pointer">
+        <h4 class="name-doa"><b>Nabi Hud AS</b></h4>
+    </a>
+    <a href="kisah-detail.php" class="col-lg-5 col-sm-1 col-md-5 doa-box pointer">
+        <h4 class="name-doa"><b>Nabi Sholeh AS</b></h4>
+    </a>
+    <a href="kisah-detail.php" class="col-lg-5 col-sm-1 col-md-5 doa-box pointer">
+        <h4 class="name-doa"><b>Nabi Ibrahim AS</b></h4>
+    </a>
+    <a href="kisah-detail.php" class="col-lg-5 col-sm-1 col-md-5 doa-box pointer">
+        <h4 class="name-doa"><b>Nabi Luth AS</b></h4>
+    </a>
+    <a href="kisah-detail.php" class="col-lg-5 col-sm-1 col-md-5 doa-box pointer">
+        <h4 class="name-doa"><b>Nabi Ismail AS</b></h4>
+    </a>
+    <a href="kisah-detail.php" class="col-lg-5 col-sm-1 col-md-5 doa-box pointer">
+        <h4 class="name-doa"><b>Nabi Ishaq AS</b></h4>
+    </a>
+    <a href="kisah-detail.php" class="col-lg-5 col-sm-1 col-md-5 doa-box pointer">
+        <h4 class="name-doa"><b>Nabi Yakub AS</b></h4>
+    </a>
+</div>
+
+<!-- <div class="container">
   <div class="row">
     <div class="column1">
-      <button class="button" onclick="location.href = 'kisah-detail.php'">Nabi Adam AS</button>
+      <button class="button" >Nabi Adam AS</button>
     </div>
     <div class="column2">
       <button class="button" onclick="location.href = 'kisah-detail.php'">Nabi Idris AS</button>
@@ -76,7 +109,7 @@
       <button class="button" onclick="location.href = 'kisah-detail.php'">Nabi Yakub AS</button>
     </div>
   </div>
-</div>
+</div> -->
 
 <br>
 <br>
