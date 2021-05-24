@@ -8,6 +8,7 @@
 
 <?php
  include('header.php');
+ include('back-api.php');
 ?>
 
 <div class="main-content" id="<?php echo empty($_GET['page'])?'pageContent':''; ?>">
@@ -32,9 +33,16 @@
 </div>
     
 <div class="container">
-<h1 style="text-align:center"><b>Kota Tangerang</b></h1>
+<h1 style="text-align:center; text-transform: capitalize;">
+  <b>
+   <?php
+      echo $data;
+   ?>
+  </b>
+</h1>
+
 <br><br>
-<h3 style="text-align:center">April 2021</h3>
+<h3 style="text-align:center">Mei 2021</h3>
 <br><br>
 
 <div class="table-responsive">

@@ -19,9 +19,6 @@
             <div class="container">
                 <center>
                     <h1 class="display-4">CERAMAH</h1>
-                    <?php
-                        echo $data;
-                    ?>
                 </center>
             </div>
         </div>
