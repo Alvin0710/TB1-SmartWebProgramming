@@ -8,6 +8,7 @@
 
 <?php
  include('header.php');
+ include('back-api.php');
 ?>
 
 <div class="main-content" id="<?php echo empty($_GET['page'])?'pageContent':''; ?>">
@@ -18,6 +19,9 @@
             <div class="container">
                 <center>
                     <h1 class="display-4">CERAMAH</h1>
+                    <?php
+                        echo $data;
+                    ?>
                 </center>
             </div>
         </div>
