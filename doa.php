@@ -9,6 +9,9 @@
 <?php
  include('header.php');
  include('api-doa.php');
+
+	$data = file_get_contents("data/doaharian.json");
+	$data = json_decode($data);
 ?>
 
 <div class="main-content" id="<?php echo empty($_GET['page'])?'pageContent':''; ?>">
@@ -47,7 +50,7 @@
           </div>
       
         <?php
-        }
+      }
   ?>
 </div>
 
@@ -55,6 +58,33 @@
 <div class="modal fade" id="myModal">
     <div class="modal-dialog modal-xl">
       <div class="modal-content">
+
+
+
+      <?php
+    	foreach ($data as $value){
+        ?> 
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title"><?=$value->title?></h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+          <p align="right"><?=$value->arabic?></p>
+          <p><i><?=$value->latin?></i></p>
+        <p><?=$value->translation?></p>
+        </div>
+        
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      
+        <?php
+      }
+      ?>
       
         <!-- Modal Header -->
         <div class="modal-header">

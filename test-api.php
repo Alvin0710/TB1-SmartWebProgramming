@@ -1,4 +1,4 @@
-<?php
+<!-- <?php
 	$data = file_get_contents("data/doaharian.json");
 	$data = json_decode($data);
 	// print_r($data);
@@ -19,4 +19,4 @@
 		// echo "translation : ".$value->translation."<br>";
 		
 	//}
-?>
+?> -->
