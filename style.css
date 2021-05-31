@@ -451,3 +451,8 @@ iframe{
 .tebak-name{
   padding-top: 50%;
 }
+
+.desc{
+  text-align: justify;
+  text-justify: inter-word;
+}
