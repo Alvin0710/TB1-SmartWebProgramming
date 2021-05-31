@@ -3,6 +3,8 @@
 <head>
   <title>Do'a - Do'a</title>
   <style type="text/css" href="style.css"></style>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Scheherazade:wght@700&display=swap" rel="stylesheet">
 </head>
 <body>
 
@@ -29,7 +31,7 @@
 
 <div class="container">
   <form class="example" action="/action_page.php" style="margin:auto;max-width:900px">
-    <input type="text" placeholder="Search.." name="search2">
+    <input type="text" placeholder="Search.." name="search" id="myInput" onkeyup="myFunction()">
     <button type="submit"><i class="fa fa-search"></i></button>
   </form>
 </div>
@@ -39,14 +41,14 @@
 <br>
 <br>
 
-<div class="row doa-row-main">
+<div class="row doa-row-main" id="data-doa">
   <?php
       $i = 0;
     	foreach ($data as $value){
         ?>
         <div class="col-lg-5 col-sm-1 col-md-5 doa-box pointer" data-toggle="modal" data-target="#myModal<?php echo $i; ?>">
             <h4 class="name-doa"><b><?=$value->title?></b></h4>
-          </div>
+        </div>
         
         <?php
         $i += 1;
@@ -58,13 +60,12 @@
 
 <!-- The Modal -->
 <div class="container">
-
 <?php
       $i = 0;
     	foreach ($data as $value){
         ?>
         <div class="modal fade" id="myModal<?php echo $i; ?>">
-    <div class="modal-dialog modal-xl">
+      <div class="modal-dialog modal-xl">
       <div class="modal-content">
 
         <!-- Modal Header -->
@@ -75,7 +76,7 @@
         
         <!-- Modal body -->
         <div class="modal-body">
-        <p align="right"><?php echo $data[$i]->arabic;?></p>
+        <h1 align="right" style="font-family: 'Scheherazade', serif;"><?php echo $data[$i]->arabic;?></b></h2><br><br>
         <p><i><?php echo $data[$i]->latin;?></i></p>
         <p><?php echo $data[$i]->translation;?></p>
         </div>
@@ -93,12 +94,6 @@
         $i += 1;
       }
   ?>
-
-
-
-
-
-
 </div>
 
 <br>
@@ -108,6 +103,25 @@
 
 include('footer.php');
 ?>
+
+<script>
+function myFunction() {
+    var input, filter, container, div, a, i, txtValue;
+    input = document.getElementById("myInput");
+    filter = input.value.toUpperCase();
+    container = document.getElementById("data-doa");
+    div = container.getElementsByTagName("div");
+    for (i = 0; i < div.length; i++) {
+        a = div[i].getElementsByTagName("h4")[0];
+        txtValue = a.textContent || a.innerText;
+        if (txtValue.toUpperCase().indexOf(filter) > -1) {
+            div[i].style.display = "";
+        } else {
+            div[i].style.display = "none";
+        }
+    }
+}
+</script>
 
 </body>
 </html>
