@@ -29,10 +29,11 @@
     </div>
 </class>
 
-<div class="container">
-  <form class="example" action="/action_page.php" style="margin:auto;max-width:900px">
-    <input type="text" placeholder="Search.." name="search" id="myInput" onkeyup="myFunction()">
-    <button type="submit"><i class="fa fa-search"></i></button>
+<div class="container input-icons">
+  <i class="fa fa-search icon" width="30" ></i>
+  <!-- <img src="images/icon/search.svg" alt="" width="20" height="20"> -->
+  <form class="example" action="/action_page.php">
+    <input type="text" placeholder="Search.." name="search" id="myInput" class="input-field" onkeyup="myFunction()" action="/action_page.php">
   </form>
 </div>
     
