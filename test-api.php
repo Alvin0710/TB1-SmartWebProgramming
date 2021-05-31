@@ -71,3 +71,33 @@ Modal Header
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
         </div>
+
+
+
+
+
+		<div class="modal fade" id="myModal0">
+    <div class="modal-dialog modal-xl">
+      <div class="modal-content">
+
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title"><?php echo $data[0]->title;?></h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+        <p align="right"><?php echo $data[0]->arabic;?></p>
+        <p><i><?php echo $data[0]->latin;?></i></p>
+        <p><?php echo $data[0]->translation;?></p>
+        </div>
+        
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+        
+      </div>
+    </div>
+</div>
