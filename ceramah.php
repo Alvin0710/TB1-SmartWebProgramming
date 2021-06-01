@@ -8,7 +8,6 @@
 
 <?php
  include('header.php');
- include('back-api.php');
 ?>
 
 <div class="main-content" id="<?php echo empty($_GET['page'])?'pageContent':''; ?>">

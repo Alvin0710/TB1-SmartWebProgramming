@@ -11,8 +11,9 @@
 <!-- API -->
 <?php
  include('header.php');
-	$json = file_get_contents("data/doaharian.json");
-	$data = json_decode($json);
+ $json_url = "https://islamic-api-zhirrr.vercel.app/api/doaharian";
+ $json = file_get_contents($json_url);
+ $data = json_decode($json);
 ?>
 
 <div class="main-content" id="<?php echo empty($_GET['page'])?'pageContent':''; ?>">
@@ -45,10 +46,10 @@
 <div class="row doa-row-main" id="data-doa">
   <?php
       $i = 0;
-    	foreach ($data as $value){
+    	foreach ($data->data as $mydata){
         ?>
         <div class="col-lg-5 col-sm-1 col-md-5 doa-box pointer" data-toggle="modal" data-target="#myModal<?php echo $i; ?>">
-            <h4 class="name-doa"><b><?=$value->title?></b></h4>
+            <h4 class="name-doa"><b><?=$mydata->title?></b></h4>
         </div>
         
         <?php
@@ -63,7 +64,7 @@
 <div class="container">
 <?php
       $i = 0;
-    	foreach ($data as $value){
+    	foreach ($data->data as $mydata){
         ?>
         <div class="modal fade" id="myModal<?php echo $i; ?>">
       <div class="modal-dialog modal-xl">
@@ -71,15 +72,15 @@
 
         <!-- Modal Header -->
         <div class="modal-header">
-          <h4 class="modal-title"><?php echo $data[$i]->title;?></h4>
+          <h4 class="modal-title"><?php echo $data->data[$i]->title;?></h4>
           <button type="button" class="close" data-dismiss="modal">&times;</button>
         </div>
         
         <!-- Modal body -->
         <div class="modal-body">
-        <h1 align="right" style="font-family: 'Scheherazade', serif;"><?php echo $data[$i]->arabic;?></b></h2><br><br>
-        <p><i><?php echo $data[$i]->latin;?></i></p>
-        <p><?php echo $data[$i]->translation;?></p>
+        <h1 align="right" style="font-family: 'Scheherazade', serif;"><?php echo $data->data[$i]->arabic;?></b></h2><br><br>
+        <p><i><?php echo $data->data[$i]->latin;?></i></p>
+        <p><?php echo $data->data[$i]->translation;?></p>
         </div>
         
         <!-- Modal footer -->
