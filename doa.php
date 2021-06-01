@@ -78,7 +78,7 @@
         
         <!-- Modal body -->
         <div class="modal-body">
-        <h1 align="right" style="font-family: 'Scheherazade', serif;"><?php echo $data->data[$i]->arabic;?></b></h2><br><br>
+        <h2 align="right" style="font-family: 'Scheherazade', serif;"><?php echo $data->data[$i]->arabic;?></b></h2><br><br>
         <p><i><?php echo $data->data[$i]->latin;?></i></p>
         <p><?php echo $data->data[$i]->translation;?></p>
         </div>
