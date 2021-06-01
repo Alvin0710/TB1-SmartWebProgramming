@@ -57,7 +57,7 @@
       $i = 0;
     	foreach ($api as $value){
         ?>
-        <div class="modal fade" id="myModal<?php echo $i; ?>">
+        <div class="modal fade" id="myModal<?php echo $i; ?>" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
       <div class="modal-dialog modal-xl">
       <div class="modal-content">
 
