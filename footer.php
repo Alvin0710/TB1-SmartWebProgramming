@@ -82,7 +82,7 @@ window.onscroll = function() {
                         <p style="text-align: center;">
                             <b>Jadwal Sholat</b> <br><br>
                            <iframe src="https://www.jadwalsholat.org/adzan/ajax.row.php?id=309" frameborder="0" style="overflow:hidden;border:0;margin:0;padding:0;width:250px;height:200px"></iframe><br>
-                            <a class="btn btn-outline-light" data-toggle="modal" data-target="#myModal">Perbesar</a>
+                            <a class="btn btn-outline-light" data-toggle="modal" data-target="#modalJadwal">Perbesar</a>
                         </p>
                     </div>
                 </div>
@@ -95,8 +95,7 @@ window.onscroll = function() {
         </div> -->
         <!-- The Modal -->
 <div class="container">
-
-        <div class="modal fade" id="myModal">
+        <div class="modal fade" id="modalJadwal">
       <div class="modal-dialog modal-xl">
       <div class="modal-content">
         
