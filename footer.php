@@ -69,17 +69,20 @@ window.onscroll = function() {
                         <a href=""><div class="bg-icon"><img src="images/facebook.svg" class="icon-footer-s" width="25" height="25" alt=""></div></a>
                         <a href=""><div class="bg-icon"><img src="images/twitter.svg" class="icon-footer-s" width="25" height="25" alt=""></div></a>
                         <a href=""><div class="bg-icon"><img src="images/whatsapp.svg" class="icon-footer-s" width="25" height="25" alt=""></div></a>
-                    </div>
+                    </div><br>
+                    <!-- <p style="text-align: left;">
+                          <iframe src="https://jam.jadwalsholat.org/digitalclock/" frameborder="0" style="overflow:hidden;border:0;margin:0;padding:0;width:250px;height:60px"></iframe>
+                    </p> -->
+                    <div id="clock"></div>
                 </div>
 
                 <div class="col-lg-3 col-sm-2 col-md-6">
                     <!-- Links -->
                     <div class="row">
-                    <p style="text-align: center;">
-                        <b>Jadwal Sholat</b> <br><br>
-                        <!-- <iframe scrolling="no" frameborder="no" clocktype="html5" style="overflow:hidden;border:0;margin:0;padding:0;width:380px;height:80px;text-align: center;"src="https://www.clocklink.com/html5embed.php?clock=047&timezone=Indonesia_Jakarta&color=green&size=200&Title=&Message=&Target=&From=2021,1,1,0,0,0&Color=green"></iframe> -->
-                        <iframe src="https://jam.jadwalsholat.org/digitalclock/" frameborder="0" style="overflow:hidden;border:0;margin:0;padding:0;width:250px;height:60px"></iframe>
-                        <iframe src="https://www.jadwalsholat.org/adzan/ajax.row.php?id=265" frameborder="0" style="overflow:hidden;border:0;margin:0;padding:0;width:200px;height:200px"></iframe>
+                        <p style="text-align: center;">
+                            <b>Jadwal Sholat</b> <br><br>
+                           <iframe src="https://www.jadwalsholat.org/adzan/ajax.row.php?id=309" frameborder="0" style="overflow:hidden;border:0;margin:0;padding:0;width:250px;height:200px"></iframe><br>
+                            <a class="btn btn-outline-light" data-toggle="modal" data-target="#myModal">Perbesar</a>
                         </p>
                     </div>
                 </div>
@@ -90,11 +93,59 @@ window.onscroll = function() {
         <!-- <div class="footer-copyright text-center text-white py-3 ">
             © 2021 Copyright by Inslamorphosis. All Rights Reserved.
         </div> -->
+        <!-- The Modal -->
+<div class="container">
+
+        <div class="modal fade" id="myModal">
+      <div class="modal-dialog modal-xl">
+      <div class="modal-content">
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+        <p style="text-align: center;">
+        <iframe src="https://www.jadwalsholat.org/adzan/monthly.php?id=309" frameborder="0" style="overflow:hidden;border:0;margin:0;padding:0;width:430px;height:800px"></iframe>
+        </p>
+        
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+        
+      </div>
+    </div>
+</div>
+</div>
+
     </footer>
 
 <?php
     }
 ?>
+
+<script>
+    function currentTime() {
+  var date = new Date(); /* creating object of Date class */
+  var hour = date.getHours();
+  var min = date.getMinutes();
+  var sec = date.getSeconds();
+  hour = updateTime(hour);
+  min = updateTime(min);
+  sec = updateTime(sec);
+  document.getElementById("clock").innerText = hour + " : " + min + " : " + sec; /* adding time to the div */
+    var t = setTimeout(function(){ currentTime() }, 1000); /* setting timer */
+}
+
+function updateTime(k) {
+  if (k < 10) {
+    return "0" + k;
+  }
+  else {
+    return k;
+  }
+}
+
+currentTime(); /* calling currentTime() function to initiate the process */
+</script>
 
 </body>
 

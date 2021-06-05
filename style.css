@@ -214,6 +214,16 @@ footer
   background-color:rgba(255, 255, 255, 0.212);
 }
 
+#clock {
+  /* font-family: 'Orbitron', sans-serif; */
+  /* color: #66ff99; */
+  font-size: 33px;
+  border: 2px solid white;
+  text-align: center;
+  /* padding-top: 40px;
+  padding-bottom: 40px; */
+}
+
 
 /* =========================================================================== */
 
