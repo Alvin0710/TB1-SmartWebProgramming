@@ -31,12 +31,12 @@ include('header.php');
                 </h3>
             </div>
         </a>
-         <a href="jadwal.php" class="col-lg-4 col-sm-2 col-md-6 col" style="background-color: #cccccc7e">
+         <a href="hadits.php" class="col-lg-4 col-sm-2 col-md-6 col" style="background-color: #cccccc7e">
             <div>
             <center><img src="images/jadwal.png" alt="" class="image-menu"></center>
                 <h3 class="main-title">
-                    JADWAL <br>
-                    SHOLAT
+                    HADITS <br>
+                    - HADITS
                 </h3>
             </div>
         </a>
