@@ -52,12 +52,12 @@ window.onscroll = function() {
                     <ul class="list-unstyled">
                         <div class="row">
                         <img src="images/envelope.svg" class="icon-footer" width="23" height="23" alt="">
-                        <a class="link-footer" href=""><p>contact@muslimorphosis.com</p></a>
+                        <a class="link-footer" href=""><p>contact@muslimorphosis.litecloud.id</p></a>
                         </div>
 
                         <div class="row">
                         <img src="images/phone-alt.svg" class="icon-footer" width="20" height="20" alt="">
-                        <a class="link-footer" href=""><p>+62 821 2121 0808</p></a>
+                        <a class="link-footer" href=""><p>+62 838 7829 9837</p></a>
                         </div>
                     </ul>
                 </div>
