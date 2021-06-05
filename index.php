@@ -50,7 +50,7 @@ include('header.php');
             </div>
         </a>
 
-        <a href="tebak.php" class="col-lg-4 col-sm-2 col-md-6 col" style="background-color: #9999997c;">
+        <a href="wirid.php" class="col-lg-4 col-sm-2 col-md-6 col" style="background-color: #9999997c;">
             <div>
             <center><img src="images/wirid.png" alt="" class="image-menu"></center>
                 <h3 class="main-title">

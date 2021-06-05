@@ -22,13 +22,20 @@
             </div>
         </div>
     </div>
-</class>
+</class><br><br>
 
-<center>
-    <div class="col-3 tebak-box pointer" data-toggle="modal" data-target="#myModal">
-      <h4 id="tebak-name"><b>Mulai Quiz</b></h4>
+<div class="row doa-row-main" id="data-doa">
+  <a href="" class="col-lg-5 col-sm-1 col-md-5 doa-box pointer">
+    <div>
+      <h4 class="name-doa"><b>Wirid</b></h4>
     </div>
-</center>
+  </a>
+  <a href="" class="col-lg-5 col-sm-1 col-md-5 doa-box pointer">
+    <div>
+      <h4 class="name-doa"><b>Tahlil</b></h4>
+    </div>
+  </a>
+</div><br><br>
     
 <!-- The Modal -->
 <div class="modal fade" id="myModal">
