@@ -79,8 +79,8 @@ window.onscroll = function() {
                 <div class="col-lg-3 col-sm-2 col-md-6">
                     <!-- Links -->
                     <div class="row">
-                        <p style="text-align: center;">
-                            <b>Jadwal Sholat</b> <br><br>
+                        <p style="text-align: center; font-size:20px; font-weight:500;">
+                            JADWAL SHOLAT<br><br>
                            <iframe src="https://www.jadwalsholat.org/adzan/ajax.row.php?id=309" frameborder="0" style="overflow:hidden;border:0;margin:0;padding:0;width:250px;height:200px"></iframe><br>
                             <a class="btn btn-outline-light" data-toggle="modal" data-target="#modalJadwal">Perbesar</a>
                         </p>
