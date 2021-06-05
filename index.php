@@ -33,7 +33,7 @@ include('header.php');
         </a>
          <a href="hadits.php" class="col-lg-4 col-sm-2 col-md-6 col" style="background-color: #cccccc7e">
             <div>
-            <center><img src="images/jadwal.png" alt="" class="image-menu"></center>
+            <center><img src="images/hadits.png" alt="" class="image-menu"></center>
                 <h3 class="main-title">
                     HADITS <br>
                     - HADITS
@@ -52,10 +52,10 @@ include('header.php');
 
         <a href="tebak.php" class="col-lg-4 col-sm-2 col-md-6 col" style="background-color: #9999997c;">
             <div>
-            <center><img src="images/tebak.png" alt="" class="image-menu"></center>
+            <center><img src="images/wirid.png" alt="" class="image-menu"></center>
                 <h3 class="main-title">
-                    TEBAK AYAT <br>
-                    AL-QUR'AN
+                    WIRID <br>
+                    & TAHLIL
                 </h3>
             </div>
         </a>

@@ -17,7 +17,7 @@
         <div class="jumbotron jumbotron-fluid bg-white">
             <div class="container">
                 <center>
-                    <h1 class="display-4">TEBAK AYAT AL-QUR'AN</h1>
+                    <h1 class="display-4">WIRID & TAHLIL</h1>
                 </center>
             </div>
         </div>
