@@ -8,7 +8,7 @@
 
 <?php
  include('header.php');
- include "kisah_back.php";
+ include('kisah_back.php');
 ?>
 
 <div class="main-content" id="<?php echo empty($_GET['page'])?'pageContent':''; ?>">
