@@ -36,25 +36,39 @@
 
 <?php
 //  $json_url = "https://islamic-api-indonesia.herokuapp.com/api/data/json/tahlil";
- $json = file_get_contents("quran.json");
- $data = json_decode($json);
+ $json = file_get_contents("https://islamic-api-zhirrr.vercel.app/api/kisahnabi");
+//  echo nl2br($json);
+$json = str_replace(array("\r\n","\n"),'<br>', $json);
+echo $json;
+ ?>
 
 
-    foreach ($data->result->data as $mydata){
-
-        // echo $data->result->data[5]->title;
-        echo $mydata->name->short."<br>";
-        // echo $mydata->arabic."<br>"; 
-        // echo $mydata->translation."<br>"; 
-
-        echo "<br>";
-        echo "<hr>";
-        echo "<br>";
-		
-    }
+<!-- <script>
+  var changed = json.map(i => i.replace(\n, '<br/>')).join('');
+</script> -->
 
 
+<?php
+//  $data = json_decode($json);
+//  echo $json_right;
 ?>
+
+
+
+    <!-- // foreach ($data->result->data as $mydata){
+
+    //     // echo $data->result->data[5]->title;
+    //     echo $mydata->name->short."<br>";
+    //     // echo $mydata->arabic."<br>"; 
+    //     // echo $mydata->translation."<br>"; 
+
+    //     echo "<br>";
+    //     echo "<hr>";
+    //     echo "<br>";
+		
+    // } -->
+
+
 
 
 

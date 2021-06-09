@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Tebak Ayat Al-Qur'an</title>
+  <title>Wirid & Tahlil</title>
   <style type="text/css" href="style.css"></style>
   <link href="https://fonts.googleapis.com/css2?family=Scheherazade:wght@700&display=swap" rel="stylesheet">
 </head>

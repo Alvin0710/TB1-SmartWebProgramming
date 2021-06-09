@@ -27,7 +27,7 @@ body {
   /* margin-bottom: 10px; */
 }
 
-.icon {
+.icon-search {
   padding: 1%;
   width: 70px;
   height: 70px;
@@ -475,5 +475,29 @@ iframe{
 #desc{
   text-align: justify;
   text-justify: inter-word;
-  text-indent: 50px;
+  white-space: pre-wrap;
 }
+
+
+
+@media only screen and (max-width: 480px) {
+  .doa-box{
+    padding-left: .3em;
+    margin-left: .2em;
+    margin-right: .2em;
+    margin-bottom: 1em;
+  }
+
+  .icon-search {
+    padding: 4.5%;
+    width: 70px;
+    height: 70px;
+  }
+}
+
+/* @media only screen and (max-width: 768px) {
+  .icon-container {
+    position:relative;
+    top: calc(50% - 10px);
+  }
+} */

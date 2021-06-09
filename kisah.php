@@ -27,7 +27,9 @@
 
 <div class="container input-icons">
   <form class="example" action="/action_page.php" style="margin:auto;max-width:900px">
-  <i class="fa fa-search icon" width="30" ></i>
+
+    <i class="fa fa-search icon-search justify-content-center align-self-center" width="30" ></i>
+
   <input type="text" placeholder="Search.." name="search" id="myInput" class="input-field" onkeyup="myFunction()" action="/action_page.php">
   </form>
 </div>
