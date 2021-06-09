@@ -40,10 +40,10 @@
             foreach ($data->result->data as $mydata){
             ?>
             <div class="col-lg-3 col-sm-1 col-md-5 quran-box" data-toggle="modal" data-target="#myModal<?php echo $i; ?>">
-                <p style="text-align:right;"><?php echo $mydata->number?></p>
-                <p class="name-surah"><b><?php echo $mydata->name->transliteration->id."  "?></b>(<?php echo $mydata->name->short?>)</p>
-                <p class="arti-surah"><?php echo $mydata->name->translation->id?></p>
-                <p class="ayat-surah"><?php echo $mydata->numberOfVerses." Ayat"?></p>
+                <p style="text-align:right;"><?php echo $mydata->number;?></p>
+                <p class="name-surah"><b><?php echo $mydata->name->transliteration->id."  "?></b>(<?php echo $mydata->name->short;?>)</p>
+                <p class="arti-surah"><?php echo $mydata->name->translation->id;?></p>
+                <p class="ayat-surah"><?php echo $mydata->numberOfVerses." Ayat";?></p>
             </div>
 
             <?php

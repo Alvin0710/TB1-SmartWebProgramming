@@ -431,12 +431,12 @@ iframe{
   top: 20%;
 }
 
-.ayat-surah{
+.arti-surah{
   position: absolute;
   top:45%
 }
 
-.arti-surah{
+.ayat-surah{
   position: absolute;
   top: 70%;
 }
@@ -472,7 +472,8 @@ iframe{
   padding-top: 50%;
 }
 
-.desc{
+#desc{
   text-align: justify;
   text-justify: inter-word;
+  text-indent: 50px;
 }

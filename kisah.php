@@ -69,6 +69,7 @@
         
         <!-- Modal body -->
         <div class="modal-body">
+        <img style="width: 100%;" src="<?php echo $api[$i]['image_url'];?>" alt=""><br><br>
         <p id="desc"><?php echo $api[$i]['description'];?></p>
         </div>
         
