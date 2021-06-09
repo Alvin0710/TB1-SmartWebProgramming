@@ -41,27 +41,27 @@
       <h4 class="name-doa"><b>Riwayat Abu Daud</b></h4>
     </div>
   </a>
-  <a href="" class="col-lg-5 col-sm-1 col-md-5 doa-box pointer">
+  <a href="ahmad.php" class="col-lg-5 col-sm-1 col-md-5 doa-box pointer">
     <div>
       <h4 class="name-doa"><b>Riwayat Ahmad</b></h4>
     </div>
   </a>
-  <a href="" class="col-lg-5 col-sm-1 col-md-5 doa-box pointer">
+  <a href="bukhari.php" class="col-lg-5 col-sm-1 col-md-5 doa-box pointer">
     <div>
       <h4 class="name-doa"><b>Riwayat Bukhari</b></h4>
     </div>
   </a>
-  <a href="" class="col-lg-5 col-sm-1 col-md-5 doa-box pointer">
+  <a href="darimi.php" class="col-lg-5 col-sm-1 col-md-5 doa-box pointer">
     <div>
       <h4 class="name-doa"><b>Riwayat Darimi</b></h4>
     </div>
   </a>
-  <a href="" class="col-lg-5 col-sm-1 col-md-5 doa-box pointer">
+  <a href="ibnu_majah.php" class="col-lg-5 col-sm-1 col-md-5 doa-box pointer">
     <div>
       <h4 class="name-doa"><b>Riwayat Ibnu Majah</b></h4>
     </div>
   </a>
-  <a href="" class="col-lg-5 col-sm-1 col-md-5 doa-box pointer">
+  <a href="nasai.php" class="col-lg-5 col-sm-1 col-md-5 doa-box pointer">
     <div>
       <h4 class="name-doa"><b>Riwayat Nasai</b></h4>
     </div>
