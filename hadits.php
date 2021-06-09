@@ -66,12 +66,12 @@
       <h4 class="name-doa"><b>Riwayat Nasai</b></h4>
     </div>
   </a>
-  <a href="" class="col-lg-5 col-sm-1 col-md-5 doa-box pointer">
+  <a href="malik.php" class="col-lg-5 col-sm-1 col-md-5 doa-box pointer">
     <div>
       <h4 class="name-doa"><b>Riwayat Malik</b></h4>
     </div>
   </a>
-  <a href="" class="col-lg-5 col-sm-1 col-md-5 doa-box pointer">
+  <a href="muslim.php" class="col-lg-5 col-sm-1 col-md-5 doa-box pointer">
     <div>
       <h4 class="name-doa"><b>Riwayat Muslim</b></h4>
     </div>

@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Hadits</title>
+  <title>Hadits - Hadits Riwayat Abu Daud</title>
   <style type="text/css" href="style.css"></style>
 </head>
 <body>
 
 <?php
  include('header.php');
- $json_url = "https://islamic-api-indonesia.herokuapp.com/api/data/json/hadith/abu-daud";
+ $json_url = "json/abu-daud.json";
  $json = file_get_contents($json_url);
  $api = json_decode($json, TRUE);
 ?>

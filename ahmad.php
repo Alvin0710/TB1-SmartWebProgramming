@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Hadits</title>
+  <title>adits - Hadits Riwayat Ahmad</title>
   <style type="text/css" href="style.css"></style>
 </head>
 <body>
