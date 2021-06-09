@@ -102,7 +102,7 @@ window.onscroll = function() {
         <!-- Modal body -->
         <div class="modal-body">
         <p style="text-align: center;">
-        <iframe src="https://www.jadwalsholat.org/adzan/monthly.php?id=309" frameborder="0" style="overflow:hidden;border:0;margin:0;padding:0;width:430px;height:800px"></iframe>
+        <iframe src="https://www.jadwalsholat.org/adzan/monthly.php?id=309" frameborder="0" style="overflow:hidden;border:0;margin:0;padding:0;width:430px;height:850px"></iframe>
         </p>
         
         <!-- Modal footer -->
