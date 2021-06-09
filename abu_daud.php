@@ -7,9 +7,10 @@
 <body>
 
 <?php
-
  include('header.php');
- include('hadits_detail_back.php');
+ $json_url = "https://islamic-api-indonesia.herokuapp.com/api/data/json/hadith/abu-daud";
+ $json = file_get_contents($json_url);
+ $api = json_decode($json, TRUE);
 ?>
 
         <div style="padding-left: 8em; padding-right: 8em; padding-top: 8em; padding-bottom: 4em;">
@@ -20,7 +21,7 @@
                 foreach ($api as $value){
                 ?>
         <div style="padding-left: 8em; padding-right: 8em; padding-bottom: 4em;">
-            <br>
+            <p align="center">(<?php echo $value['number'] ?>)</p>
             <br>
             <h1 align="right" style="font-family: 'Scheherazade', serif;"><?php echo $value['arab'] ?></h1>
             <br>

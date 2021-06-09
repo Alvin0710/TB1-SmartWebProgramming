@@ -36,7 +36,7 @@
 </div>
 
 <div class="row doa-row-main" id="data-doa">
-  <a href="hadits_detail.php" class="col-lg-5 col-sm-1 col-md-5 doa-box pointer">
+  <a href="abu_daud.php" class="col-lg-5 col-sm-1 col-md-5 doa-box pointer">
     <div>
       <h4 class="name-doa"><b>Riwayat Abu Daud</b></h4>
     </div>
