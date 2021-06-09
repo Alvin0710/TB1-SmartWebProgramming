@@ -52,12 +52,12 @@ window.onscroll = function() {
                     <ul class="list-unstyled">
                         <div class="row">
                         <img src="images/envelope.svg" class="icon-footer" width="23" height="23" alt="">
-                        <a class="link-footer" href=""><p>contact@muslimorphosis.litecloud.id</p></a>
+                        <a class="link-footer" href="https://mailto:contact@muslimorphosis.litecloud.id"><p>contact@muslimorphosis.litecloud.id</p></a>
                         </div>
 
                         <div class="row">
                         <img src="images/phone-alt.svg" class="icon-footer" width="20" height="20" alt="">
-                        <a class="link-footer" href=""><p>+62 838 7829 9837</p></a>
+                        <a class="link-footer" href="https://wa.me/083878299837"><p>+62 838 7829 9837</p></a>
                         </div>
                     </ul>
                 </div>
@@ -68,7 +68,7 @@ window.onscroll = function() {
                         <a href=""><div class="bg-icon"><img src="images/instagram.svg" class="icon-footer-s" width="25" height="25" alt=""></div></a>
                         <a href=""><div class="bg-icon"><img src="images/facebook.svg" class="icon-footer-s" width="25" height="25" alt=""></div></a>
                         <a href=""><div class="bg-icon"><img src="images/twitter.svg" class="icon-footer-s" width="25" height="25" alt=""></div></a>
-                        <a href=""><div class="bg-icon"><img src="images/whatsapp.svg" class="icon-footer-s" width="25" height="25" alt=""></div></a>
+                        <a href="https://wa.me/083878299837"><div class="bg-icon"><img src="images/whatsapp.svg" class="icon-footer-s" width="25" height="25" alt=""></div></a>
                     </div><br>
                     <!-- <p style="text-align: left;">
                           <iframe src="https://jam.jadwalsholat.org/digitalclock/" frameborder="0" style="overflow:hidden;border:0;margin:0;padding:0;width:250px;height:60px"></iframe>
