@@ -8,8 +8,8 @@
 
 <?php
  include('header.php');
- include "quran_back.php";
-
+ $json = file_get_contents("quran.json");
+ $data = json_decode($json);
 ?>
 
 <div class="main-content" id="<?php echo empty($_GET['page'])?'pageContent':''; ?>">
@@ -37,45 +37,15 @@
 <div class="row quran-row-main" id="data-surah">
     <?php
         $i = 0;
-            foreach ($api as $value){
-                $a = $i + 1;
-                $json_url_ayat = "https://api.quran.sutanlab.id/surah/$a";
-                $json_ayat = file_get_contents($json_url_ayat);
-                $api_ayat = json_decode($json_ayat, TRUE);
+            foreach ($data->result->data as $mydata){
             ?>
             <div class="col-lg-3 col-sm-1 col-md-5 quran-box" data-toggle="modal" data-target="#myModal<?php echo $i; ?>">
-                <p><?=$value['number_of_surah']?></p>
-                <p class="name-surah"><b><?=$value['name']?> (<?=$value['number_of_ayah']?> ayat)</b></p>
-                <p class="arti-surah"><?=$value['name_translations']['id']?></p>
+                <p style="text-align:right;"><?php echo $mydata->number?></p>
+                <p class="name-surah"><b><?php echo $mydata->name->transliteration->id."  "?></b>(<?php echo $mydata->name->short?>)</p>
+                <p class="arti-surah"><?php echo $mydata->name->translation->id?></p>
+                <p class="ayat-surah"><?php echo $mydata->numberOfVerses." Ayat"?></p>
             </div>
 
-            <!-- The Modal -->
-            <div class="container">
-                <div class="modal fade" id="myModal<?php echo $i; ?>" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                <div class="modal-dialog modal-xl">
-                <div class="modal-content">
-
-                    <!-- Modal Header -->
-                    <div class="modal-header">
-                    <h4 class="modal-title"><?php echo $api_ayat['data']['name']['transliteration']['id'];?></h4>
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                    </div>
-                    
-                    <!-- Modal body -->
-                    <div class="modal-body">
-                    <p id="desc"><?php echo $api_ayat['data']['name']['translation']['id'];?></p>
-                    </div>
-                    
-                    <!-- Modal footer -->
-                    <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    </div>
-                    
-                </div>
-                </div>
-            </div>
-            </div>
-            
             <?php
             $i += 1;
         }
