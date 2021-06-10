@@ -51,19 +51,19 @@
     <div class="container team">
         <div class="row text-center pt-3">
             <div class="col-sm my-5">
-                <div class="container-team mx-auto d-block bg-dark" data-aos="fade-right">
+                <div class="container-team mx-auto d-block bg-dark" data-aos="fade-right" style="background-image: url('images/fauzi.jpg');background-size: cover;">
                 </div>
                 <p class="pt-3 text-center text-dark" data-aos="zoom-in"><b class="font-weight-bold">Muhammad Fauzi Maulana</b><br>
                     University Student</p>
             </div>
             <div class="col-sm my-5">
-                <div class="container-team mx-auto d-block bg-dark" data-aos="zoom-out">
+                <div class="container-team mx-auto d-block bg-dark" data-aos="zoom-out" style="background-image: url('images/alvin.jpg');background-size: cover;">
                 </div>
                 <p class="pt-3 text-center text-dark" data-aos="zoom-in"><b class="font-weight-bold">Alvin Irwanto</b><br>
                     University Student</p>
             </div>
             <div class="col-sm my-5">
-                <div class="container-team mx-auto d-block bg-dark" data-aos="fade-left"></div>
+                <div class="container-team mx-auto d-block bg-dark" data-aos="fade-left" style="background-image: url('images/fajar.jpg');background-size: cover;"></div>
                 <p class="pt-3 text-center text-dark" data-aos="zoom-in"><b class="font-weight-bold">Fajar Bhaskoro Catur S.</b><br>
                     University Student</p>
             </div>
