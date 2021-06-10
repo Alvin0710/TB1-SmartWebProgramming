@@ -53,6 +53,45 @@
 </div>
 </div>
 
+
+<!-- The Modal -->
+<div class="container">
+<?php
+      $i = 0;
+    	foreach ($data->result->data->verses as $mydata){
+        ?>
+        <div class="modal fade" id="myModal<?php echo $i; ?>" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+      <div class="modal-dialog modal-xl">
+      <div class="modal-content">
+
+        <!-- Modal Header -->
+        <!-- <div class="modal-header">
+          <h4 class="modal-title"><php echo $api[$i]['name'];?></h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div> -->
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+        <!-- <img style="width: 100%;" src="<?php echo $api[$i]['image_url'];?>" alt=""><br><br> -->
+        <p id="desc"><?php echo $mydata->text->arab;?></p>
+        </div>
+        
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+        
+      </div>
+    </div>
+</div>
+        
+        <?php
+        $i += 1;
+      }
+  ?>
+</div>
+
+
 <br>
 <br>
 </div>

@@ -13,28 +13,31 @@
  $api = json_decode($json, TRUE);
 ?>
 
-        <div style="padding-left: 8em; padding-right: 8em; padding-top: 8em; padding-bottom: 4em;">
-            <h1 style="text-align: center;">Hadits - Hadits Riwayat Abu Daud</h1>
-        </div>
-            <?php
-                $i = 0;
-                foreach ($api as $value){
-                ?>
-        <div style="padding-left: 8em; padding-right: 8em; padding-bottom: 4em;">
-            <p align="center">(<?php echo $value['number'] ?>)</p>
-            <br>
-            <h1 align="right" style="font-family: 'Scheherazade', serif;"><?php echo $value['arab'] ?></h1>
-            <br>
-            <div style="text-align: justify;">
-                <p>"<?php echo $value['id'] ?>"</p>
-            </div>
-        </div>
-        <hr>
+<div style="padding-left: 8em; padding-right: 8em; padding-top: 8em; padding-bottom: 4em;">
+    <h1 style="text-align: center;">Hadits - Hadits Riwayat Abu Daud</h1>
+</div>
 
-<?php
-    $i += 1;
-}
-?>
+    <?php
+        $i = 0;
+        foreach ($api as $value){
+    ?>
+    <div class="container">
+        <div style="background: black; color:white; height:3.5vh; width:3.5vh;">
+            <center><p><?php echo $value['number'] ?></p></center>
+        </div>
+        <br><br>
+        <h3 align="right" style="font-family: 'Scheherazade', serif;"><?php echo $value['arab'] ?></h3>
+        <br>
+        <div style="text-align: justify;">
+            <p>"<?php echo $value['id'] ?>"</p>
+        </div>
+    </div><br>
+<hr>
+<br>
+    <?php
+        $i += 1;
+    }
+    ?>
 
 <br>
 <br>
