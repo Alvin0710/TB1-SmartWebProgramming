@@ -35,21 +35,39 @@
 ?>
 
 <?php
-//  $json_url = "https://islamic-api-indonesia.herokuapp.com/api/data/json/tahlil";
-$json = file_get_contents("quran.json");
-$data = json_decode($json);
- ?>
-
-
-<!-- <script>
-  var changed = json.map(i => i.replace(\n, '<br/>')).join('');
-</script> -->
-
-
-<?php
-//  $data = json_decode($json);
-//  echo $json_right;
+for ($x = 1; $x <= 114; $x++) {
+    // <?php
+    //  $json_url = "https://islamic-api-indonesia.herokuapp.com/api/data/json/tahlil";
+    $json = file_get_contents("https://api.quran.sutanlab.id/surah/$x");
+    $data = json_decode($json);
+    ?>
+    
+    <?php
+        // foreach ($data->result->data as $mydata){
+        //     echo $mydata->verses[0]->text->arab;
+        // }
+        
+        // $length = $data->data->numberOfVerses;
+        $i = 0;
+        foreach ($data->data as $mydata){
+            error_reporting(0);
+            // if ($i <= $length){
+                // echo $data->data->verses[$i]->text->arab."<br>";
+            // } else {
+            //     echo break;
+            // }
+    
+            echo $data->data->verses[$i]->text->arab."<br>";
+            echo $data->data->verses[$i]->translation->id."<br>";
+    
+        $i += 1;
+        }
+        // 
+    
+}
 ?>
+
+
 
 
 
@@ -65,14 +83,3 @@ $data = json_decode($json);
     //     echo "<br>";
 		
     // } -->
-
-
-
-
-
-
-<!-- <div class="col-lg-3 col-sm-1 col-md-5 quran-box" data-toggle="modal" data-target="#myModal">
-        <p>al</p>
-        <p class="name-surah"><b>al</b></p>
-        <p class="arti-surah">as</p>
-    </div> -->
