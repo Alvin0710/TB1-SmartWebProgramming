@@ -8,7 +8,7 @@
 
 <?php
  include('header.php');
- $json = file_get_contents("quran.json");
+ $json = file_get_contents("json/quran.json");
  $data = json_decode($json);
 
 ?>
@@ -57,7 +57,7 @@
 <div class="container">
     <?php
         $v = 0;
-        $json = file_get_contents("quran.json");
+        $json = file_get_contents("json/quran.json");
         $api = json_decode($json, TRUE);
             foreach ($api['result']['data'] as $value){
     ?>
