@@ -3,6 +3,7 @@
 <head>
   <title>About Us</title>
   <style type="text/css" href="style.css"></style>
+  <link rel="icon" href="images/LOGO.png">
 
   <style>
         section {

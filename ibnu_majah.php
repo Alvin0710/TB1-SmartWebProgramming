@@ -3,6 +3,7 @@
 <head>
   <title>Hadits - Hadits Riwayat Ibnu Majah</title>
   <style type="text/css" href="style.css"></style>
+  <link rel="icon" href="images/LOGO.png">
 </head>
 <body>
 

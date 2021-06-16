@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Hadits - Hadits RiwayatMuslim</title>
+  <title>Hadits - Hadits Riwayat Muslim</title>
   <style type="text/css" href="style.css"></style>
+  <link rel="icon" href="images/LOGO.png">
 </head>
 <body>
 

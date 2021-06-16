@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Kisah Nabi & Rasul</title>
+  <title>Kisah - Kisah Nabi & Rasul</title>
   <style type="text/css" href="style.css"></style>
+  <link rel="icon" href="images/LOGO.png">
 </head>
 <body>
 

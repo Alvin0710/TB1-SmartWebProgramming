@@ -4,6 +4,7 @@
   <title>Wirid & Tahlil</title>
   <style type="text/css" href="style.css"></style>
   <link href="https://fonts.googleapis.com/css2?family=Scheherazade:wght@700&display=swap" rel="stylesheet">
+  <link rel="icon" href="images/LOGO.png">
 </head>
 <body>
 
