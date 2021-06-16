@@ -33,8 +33,8 @@
 <div class="container input-icons">
   <i class="fa fa-search icon-search" width="30" ></i>
   <!-- <img src="images/icon/search.svg" alt="" width="20" height="20"> -->
-  <form class="example" action="/action_page.php">
-    <input type="text" placeholder="Search.." name="search" id="myInput" class="input-field" onkeyup="myFunction()" action="/action_page.php">
+  <form class="example">
+    <input type="text" placeholder="Search.." id="myInput" class="input-field" onkeyup="myFunction()">
   </form>
 </div>
     
