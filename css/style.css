@@ -38,6 +38,24 @@ body {
   padding: 10px;
 }
 
+#jadwal-modal-sm{
+  overflow:hidden;
+  border:0;
+  margin:0;
+  padding:0;
+  width:250px;
+  height:200px;
+}
+
+#jadwal-modal-xl{
+  overflow:hidden;
+  border:0;
+  margin:0;
+  padding:0;
+  width:30em;
+  height:55em;
+}
+
 
 /* ============================ index.php ================================ */
 
@@ -188,6 +206,7 @@ footer
 
 .link-footer{
    color: rgba(255, 255, 255, 0.500);
+   font-size: medium;
 }
 
 .link-footer:hover{
@@ -1001,7 +1020,7 @@ iframe{
 }
 
 
-
+/* Smartphone */
 @media only screen and (max-width: 480px) {
   .doa-box{
     padding-left: .3em;
@@ -1028,14 +1047,19 @@ iframe{
     font-size: small;
   }
 
-  /* #desc{
-    text-align: left;
-  } */
+  .link-footer{
+    font-size: small;
+  }
+
+  #jadwal-modal-xl{
+    width:12em;
+  }
+
 }
 
-/* @media only screen and (max-width: 768px) {
-  .icon-container {
-    position:relative;
-    top: calc(50% - 10px);
+/* Tablet */
+@media only screen and (min-device-width : 768px) and (max-width: 1024px) {
+  #jadwal-modal-xl{
+    width:21em;
   }
-} */
+}

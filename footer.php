@@ -42,7 +42,7 @@ window.onscroll = function() {
                 <div class="col-lg-3 col-sm-2 col-md-6">
                 <img src="images/LOGO.png" alt="" id="logo-footer" width="70" height="70" class="d-inline-block align-top">
                 <h5><b>Islam is Love</b></h5>
-                <p style="color: rgba(255, 255, 255, 0.500);">© 2021 Copyright by Muslimorphosis. <br> All Rights Reserved.</p>
+                <p style="color: rgba(255, 255, 255, 0.500);">© 2021 Copyright by Muslimorphosis. <br> All Rights Reserved.</p> <br><br>
                 </div>
 
                 <!-- Grid column -->
@@ -57,7 +57,7 @@ window.onscroll = function() {
 
                         <div class="row">
                         <img src="images/phone-alt.svg" class="icon-footer" width="20" height="20" alt="">
-                        <a class="link-footer" href="https://wa.me/083878299837"><p>+62 838 7829 9837</p></a>
+                        <a class="link-footer" href="https://wa.me/083878299837"><p>+62 838 7829 9837</p></a><br><br>
                         </div>
                     </ul>
                 </div>
@@ -73,7 +73,7 @@ window.onscroll = function() {
                     <!-- <p style="text-align: left;">
                           <iframe src="https://jam.jadwalsholat.org/digitalclock/" frameborder="0" style="overflow:hidden;border:0;margin:0;padding:0;width:250px;height:60px"></iframe>
                     </p> -->
-                    <div id="clock"></div>
+                    <div id="clock"></div><br><br>
                 </div>
 
                 <div class="col-lg-3 col-sm-2 col-md-6">
@@ -81,7 +81,7 @@ window.onscroll = function() {
                     <div class="row">
                         <p style="text-align: center; font-size:20px; font-weight:500;">
                             JADWAL SHOLAT<br><br>
-                           <iframe src="https://www.jadwalsholat.org/adzan/ajax.row.php?id=309" frameborder="0" style="overflow:hidden;border:0;margin:0;padding:0;width:250px;height:200px"></iframe><br>
+                           <iframe src="https://www.jadwalsholat.org/adzan/ajax.row.php?id=309" frameborder="0" id="jadwal-modal-sm"></iframe><br>
                             <a class="btn btn-outline-light" data-toggle="modal" data-target="#modalJadwal">Perbesar</a>
                         </p>
                     </div>
@@ -94,8 +94,8 @@ window.onscroll = function() {
             © 2021 Copyright by Inslamorphosis. All Rights Reserved.
         </div> -->
         <!-- The Modal -->
-<div class="container">
-        <div class="modal fade" id="modalJadwal">
+<!-- <div class="container"> -->
+      <div class="modal fade" id="modalJadwal">
       <div class="modal-dialog modal-xl">
       <div class="modal-content">
         
@@ -107,7 +107,7 @@ window.onscroll = function() {
         <!-- Modal body -->
         <div class="modal-body">
         <p style="text-align: center;">
-        <iframe src="https://www.jadwalsholat.org/adzan/monthly.php?id=309" frameborder="0" style="overflow:hidden;border:0;margin:0;padding:0;width:430px;height:850px"></iframe>
+        <iframe src="https://www.jadwalsholat.org/adzan/monthly.php?id=309" frameborder="0" id="jadwal-modal-xl"></iframe>
         </p>
         
         <!-- Modal footer -->
@@ -118,7 +118,7 @@ window.onscroll = function() {
       </div>
     </div>
 </div>
-</div>
+<!-- </div> -->
 
     </footer>
 
