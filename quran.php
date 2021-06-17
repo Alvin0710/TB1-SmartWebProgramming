@@ -2,7 +2,13 @@
 <html>
 <head>
   <title>Al-Qur'an</title>
+<<<<<<< HEAD
   <style type="text/css" href="css/style.css"></style>
+=======
+  <style type="text/css" href="style.css"></style>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Scheherazade:wght@700&display=swap" rel="stylesheet">
+>>>>>>> 784955dfef5ec350d35ccedcbffc1c2446c326a4
   <link rel="icon" href="images/LOGO.png">
 </head>
 <body>
@@ -29,9 +35,9 @@
 </class>
 
 <div class="container input-icons">
-  <form class="example" action="/action_page.php" style="margin:auto;max-width:900px">
-  <i class="fa fa-search icon-search" width="30" ></i>
-  <input type="text" placeholder="Search.." name="search" id="myInput" class="input-field" onkeyup="myFunction()" action="/action_page.php">
+  <form class="example" style="margin:auto;max-width:900px">
+    <i class="fa fa-search icon-search justify-content-center align-self-center" width="30" ></i>
+    <input type="text" placeholder="Search.." id="myInput" class="input-field" onkeyup="myFunction()" onkeypress="return event.keyCode!=13">
   </form>
 </div>
 </div><br><br>
@@ -43,7 +49,7 @@
             ?>
             <div class="col-lg-3 col-sm-1 col-md-5 quran-box" data-toggle="modal" data-target="#myModal<?php echo $i; ?>">
                 <p style="text-align:right;"><?php echo $mydata->number;?></p>
-                <p class="name-surah"><b><?php echo $mydata->name->transliteration->id."  "?></b>(<?php echo $mydata->name->short;?>)</p>
+                <h6 class="name-surah"><b><?php echo $mydata->name->transliteration->id."  "?></b>(<?php echo $mydata->name->short;?>)</h6>
                 <p class="arti-surah"><?php echo $mydata->name->translation->id;?></p>
                 <p class="ayat-surah"><?php echo $mydata->numberOfVerses." Ayat";?></p>
             </div>
@@ -68,24 +74,23 @@
 
                 <!-- Modal Header -->
                 <div class="modal-header">
-                <h4 class="modal-title"><?php echo $value['name']['transliteration']['id']?></h4>
+                <p class="header-title"><?php echo $value['name']['transliteration']['id']."  "?>(<?php echo $value['name']['short']?>)</p><br><br>
                 <button type="button" class="close" data-dismiss="modal">&times;</button>
                 </div>
-                    
                     <?php
                         $y = 0;
                         foreach ($value['verses'] as $val){  
                     ?>
-                            <!-- Modal body -->
-                            <div class="modal-body">
-                            <div style="background: black; color:white; height:3.5vh; width:3.5vh;">
-                            <center><p><?php echo $val['number']['inSurah'] ?></p></center>
-                            </div>
-                            <h2 align="right" style="font-family: 'Scheherazade', serif;"><?php echo $val['text']['arab']?></b></h2><br><br>
-                            <p><i><?php echo $val['text']['transliteration']['en']?></i></p>
-                            <p><?php echo $val['translation']['id']?></p>
-                            </div>
-                            <hr>
+                      <!-- Modal body -->
+                      <div class="modal-body">
+                        <div style="background: black; color:white; height:1.5em; width:1.5em;">
+                          <center class="numbering"><p><?php echo $val['number']['inSurah'] ?></p></center>
+                        </div><br>
+                        <p class="arabic-text" align="right" style="font-family: 'Scheherazade', serif;"><?php echo $val['text']['arab']?></h2><br><br>
+                        <p><i class="normal-text"><?php echo $val['text']['transliteration']['en']?></i></p>
+                        <p class="normal-text"><?php echo $val['translation']['id']?></p>
+                      </div>
+                      <hr>
                     <?php
                         $y += 1;
                         }
@@ -121,7 +126,7 @@ function myFunction() {
     container = document.getElementById("data-surah");
     div = container.getElementsByTagName("div");
     for (i = 0; i < div.length; i++) {
-        a = div[i].getElementsByTagName("h4")[0];
+        a = div[i].getElementsByTagName("h6")[0];
         txtValue = a.textContent || a.innerText;
         if (txtValue.toUpperCase().indexOf(filter) > -1) {
             div[i].style.display = "";

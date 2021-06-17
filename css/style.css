@@ -1,3 +1,4 @@
+<<<<<<< HEAD:css/style.css
 a {
   text-decoration: none !important;
   color: black;
@@ -500,4 +501,544 @@ iframe{
     position:relative;
     top: calc(50% - 10px);
   }
+=======
+a {
+  text-decoration: none !important;
+  color: black;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  /* overflow-x: hidden; */
+}
+
+.main-row{
+  overflow-x: hidden;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.input-icons i {
+  position: absolute;
+}
+
+.input-icons {
+  width: 100%;
+  /* margin-bottom: 10px; */
+}
+
+.icon-search {
+  padding: 1%;
+  width: 70px;
+  height: 70px;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+}
+
+.arabic-text{
+  font-size: xx-large;
+}
+
+.normal-text{
+  font-size: medium;
+}
+
+.numbering{
+  font-size: medium;
+}
+
+.header-title{
+  font-size: x-large;
+  font-weight: bold;
+}
+
+/* ============================ index.php ================================ */
+
+section {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-title{
+  /* margin-top: 8.2em; */
+  margin-top: .5em;
+  margin-bottom: 1em;
+  margin-left: 4em;
+  font-weight: 700;
+}
+
+.image-menu{
+    height: 12.6em;
+    width: 12.6em;
+    /* display: block;
+    margin-left: auto;
+    margin-right: auto; */
+    margin-top: 4.3em;
+    /* width: 50%; */
+    display: flex;
+    justify-content: center;
+
+}
+
+.pointer {
+  cursor: pointer;}
+
+.col{
+  filter: grayscale(100%);
+}
+
+.col:hover {
+  color: white !important;
+  background-color: rgba(0, 0, 0, 0.836) !important;
+  text-align: center;
+  filter: grayscale(0%);
+}
+
+/* ================================ header.php ====================================================== */
+
+.navbar {
+  position: fixed; 
+  width: 100%; 
+  height: auto; 
+  background-color: transparent !important; 
+  top:0;
+  margin:0 0;
+  transition: top 0.45s ease-in-out;
+  z-index: 1000 !important;
+  /* padding-left: 1em; */
+}
+
+.navbar-brand{
+  /* padding-left: 3rem; */
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  z-index: 1000;
+}
+
+#logo{
+  margin-left: 1em;
+  z-index: 100;
+}
+
+.navbar-toggler{
+  border: none;
+  text-decoration: none !important;
+  /* margin-right: 1em; */
+}
+
+button:focus {outline:0;}
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url(
+"data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(0, 0, 0)' stroke-width='5' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 5;
+  top: 0;
+  right: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 7em;
+}
+
+.sidenav a {
+  text-decoration: none;
+  font-size: 1.1em;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.menu-item{
+    padding-top: 2em;
+    padding-left: 2em;
+    cursor: pointer;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 1em;
+  font-size: 3em;
+}
+
+
+/* ============================ footer.php ================================================ */
+
+#logo-footer{
+  filter: invert(95%) sepia(97%) saturate(14%) hue-rotate(213deg) brightness(104%) contrast(104%);
+  margin-bottom: 3em;
+}
+
+footer
+{
+  width: 100%; 
+  height: auto; 
+  background-color: transparent !important; 
+  bottom:0;
+  margin:0 0;
+  z-index: 1000 !important;
+  /* padding-left: 1em; */
+}
+ 
+#footer-text{
+   margin-top: 2em;
+   margin-right: 2em;
+   margin-left: 2em;
+   margin-bottom: -20em;
+}
+
+.link-footer{
+   color: rgba(255, 255, 255, 0.500);
+}
+
+.link-footer:hover{
+   color: white !important;
+}
+
+.icon-footer{
+  filter: invert(95%) sepia(97%) saturate(14%) hue-rotate(213deg) brightness(104%) contrast(104%);
+  margin-right: 1em;
+}
+
+.icon-footer-s{
+  filter: invert(95%) sepia(97%) saturate(14%) hue-rotate(213deg) brightness(104%) contrast(104%);
+}
+
+.bg-icon{
+  padding: .5em !important;
+  margin-right: .5em;
+  margin-left: .5em;
+  border-radius: 100%;
+}
+
+.bg-icon:hover{
+  background-color:rgba(255, 255, 255, 0.212);
+}
+
+#clock {
+  /* font-family: 'Orbitron', sans-serif; */
+  /* color: #66ff99; */
+  font-size: 33px;
+  border: 2px solid white;
+  text-align: center;
+  /* padding-top: 40px;
+  padding-bottom: 40px; */
+}
+
+
+/* =========================================================================== */
+
+* {
+  box-sizing: border-box;
+}
+  
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+}
+
+form.example button {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: #f1f1f1;
+  color: black;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+}
+  
+form.example button:hover {
+  background: grey;
+}
+  
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+  /* Dashed border
+  hr.dashed {
+    border-top: 3px dashed #bbb;
+  } */
+
+  .column1 {
+    float: left;
+    text-align: right;
+    width: 50%;
+    padding: 10px;
+  }
+  .column2 {
+    float: left;
+    text-align: left;
+    width: 50%;
+    padding: 10px;
+  }
+
+  .button {
+    background-color: #555555;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 28px;
+    margin: 4px 2px;
+    cursor: pointer;
+    height: 200px;
+    width: 80%;
+  }
+
+  /* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  text-align: right;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* ================================ doa.php ======================================= */
+.name-doa{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5em; */
+  padding-left: 2em;
+  padding-right: 2em;
+  width: 100%;
+}
+
+.doa-row-main{
+  display: flex;
+  justify-content: center;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.doa-box{
+  background-color: white;
+  border: 2px solid #636363;
+
+  margin-left: .5em;
+  margin-right: .5em;
+  margin-bottom: 1em;
+  height: 13em;
+  color: #636363;
+}
+
+.doa-box:hover{
+  background-color: #636363;
+  color: white;
+}
+
+.modal-backdrop {
+  z-index: -1;
+}
+
+#myInput {
+  background-position: 10px 12px;
+  background-repeat: no-repeat;
+  width: 100%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+}
+
+/* ============================== ceramah.php ================================== */
+
+iframe{
+  /* display: block; */
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5em;
+  width: 100%;
+  height: 20em;
+}
+
+.ceramah-row-main{
+  display: flex;
+  justify-content: center;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+/* ======================================= quran.php ======================================= */
+.quran-box{
+  background-color: white;
+  border: 2px solid #636363;
+  margin-left: .5em;
+  margin-right: .5em;
+  margin-bottom: 1em;
+  height: 6em;
+  color: #636363;
+  /* padding-top: .5em;
+  padding-bottom: 5em; */
+}
+
+.quran-box:hover{
+  background-color: #636363;
+  color: white;
+}
+
+.quran-row-main{
+  display: flex;
+  justify-content: center;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.name-surah{
+  position: absolute;
+  top: 20%;
+}
+
+.arti-surah{
+  position: absolute;
+  top:45%
+}
+
+.ayat-surah{
+  position: absolute;
+  top: 70%;
+}
+
+
+/* ============================= tebak.php ============================================== */
+.tebak-box{
+  background-color: white;
+  border: 2px solid #636363;
+  /* margin-left: .5em;
+  margin-right: .5em; */
+  margin-bottom: 1em;
+  height: 7em;
+  color: #636363;
+  padding-top: 3em;
+}
+
+.tebak-box:hover{
+  background-color: #636363;
+  color: white;
+} 
+
+/* .tebak-name{
+  position: absolute;
+  top: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5em;
+  width: 100%;
+} */
+
+.tebak-name{
+  padding-top: 50%;
+}
+
+#desc{
+  text-align: justify;
+  text-justify: inter-word;
+  white-space: pre-wrap;
+}
+
+
+
+@media only screen and (max-width: 480px) {
+  .doa-box{
+    padding-left: .3em;
+    margin-left: .2em;
+    margin-right: .2em;
+    margin-bottom: 1em;
+  }
+
+  .icon-search {
+    padding: 4.5%;
+    width: 70px;
+    height: 70px;
+  }
+
+  .arabic-text{
+    font-size: x-large;
+  }
+  
+  .normal-text{
+    font-size: small;
+  }
+  
+  .numbering{
+    font-size: small;
+  }
+
+  /* #desc{
+    text-align: left;
+  } */
+}
+
+/* @media only screen and (max-width: 768px) {
+  .icon-container {
+    position:relative;
+    top: calc(50% - 10px);
+  }
+>>>>>>> 784955dfef5ec350d35ccedcbffc1c2446c326a4:style.css
 } */

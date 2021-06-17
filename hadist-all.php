@@ -34,6 +34,7 @@ if ($a == "Abu Daud") {
  $api = json_decode($json, TRUE);
 ?>
 
+<<<<<<< HEAD:hadist-all.php
 
 <body>
 
@@ -41,27 +42,46 @@ if ($a == "Abu Daud") {
 
 <div style="padding-left: 8em; padding-right: 8em; padding-top: 8em; padding-bottom: 4em;">
     <h1 style="text-align: center;">Hadits - Hadits Riwayat <?php echo $a ?></h1>
+=======
+<div class="container" style="padding-top: 10em; padding-bottom:10em;">
+    <h1 style="text-align: center;">Hadits - Hadits Riwayat Abu Daud</h1>
+>>>>>>> 784955dfef5ec350d35ccedcbffc1c2446c326a4:abu_daud.php
 </div>
 
-    <?php
+<div class="container input-icons">
+  <form class="example" style="margin:auto;max-width:900px">
+    <i class="fa fa-search icon-search justify-content-center align-self-center" width="30" ></i>
+    <input type="text" placeholder="Search.." id="myInput" class="input-field" onkeyup="myFunction()" onkeypress="return event.keyCode!=13">
+  </form>
+</div><br><br><br><br>
+
+<div class="container" id="data-hadits">
+<?php
         $i = 0;
         foreach ($api as $value){
     ?>
+<<<<<<< HEAD:hadist-all.php
     <div class="container">
         <p align="center">(<?php echo $value['number'] ?>)</p>
+=======
+        <center style="background: black; color:white; height:3.5vh; width:3.5vh;" class="numbering">
+            <p><?php echo $value['number'] ?></p>
+        </center>
+>>>>>>> 784955dfef5ec350d35ccedcbffc1c2446c326a4:abu_daud.php
         <br><br>
-        <h3 align="right" style="font-family: 'Scheherazade', serif;"><?php echo $value['arab'] ?></h3>
+        <h3 class="arabic-text" align="right" style="font-family: 'Scheherazade', serif;"><?php echo $value['arab'] ?></h3>
         <br>
         <div style="text-align: justify;">
-            <p>"<?php echo $value['id'] ?>"</p>
+            <p class="normal-text">"<?php echo $value['id'] ?>"</p>
         </div>
-    </div><br>
+<br>
 <hr>
 <br>
     <?php
         $i += 1;
     }
     ?>
+</div>
 
 <br>
 <br>
@@ -74,6 +94,24 @@ if ($a == "Abu Daud") {
 include('footer.php');
 ?>
 
+<script>
+function myFunction() {
+    var input, filter, container, div, a, i, txtValue;
+    input = document.getElementById("myInput");
+    filter = input.value.toUpperCase();
+    container = document.getElementById("data-hadits");
+    div = container.getElementsByTagName("center");
+    for (i = 0; i < div.length; i++) {
+        a = div[i].getElementsByTagName("p")[0];
+        txtValue = a.textContent || a.innerText;
+        if (txtValue.toUpperCase().indexOf(filter) > -1) {
+            div[i].style.display = "";
+        } else {
+            div[i].style.display = "none";
+        }
+    }
+}
+</script>
 
 </body>
 </html>
