@@ -39,7 +39,44 @@
 <body>
 
 <?php
- include('header.php');
+    include('header.php');
+        
+    $dataCard = array(
+        array(
+            'title' => 'Al-qur\'an',
+            'source' => 'Islamic API V2 - Zhirrr',
+            'link' => 'https://github.com/Zhirrr/islamic-rest-api-indonesian-v2'
+        ),
+        array(
+            'title' => 'Do\'a - Do\'a',
+            'source' => 'Islamic Rest API Official',
+            'link' => 'https://github.com/Zhirrr/islamic-rest-api-indonesian'
+        ),
+        array(
+            'title' => 'Kisah Nabi & Rasul',
+            'source' => 'Islamic Rest API Official',
+            'link' => 'https://github.com/Zhirrr/islamic-rest-api-indonesian'
+        ),
+        array(
+            'title' => 'Hadits - Hadits',
+            'source' => 'Islamic API V2 - Zhirrr',
+            'link' => 'https://github.com/Zhirrr/islamic-rest-api-indonesian-v2'
+        ),
+        array(
+            'title' => 'Wirid & Tahlil',
+            'source' => 'Islamic API V2 - Zhirrr',
+            'link' => 'https://github.com/Zhirrr/islamic-rest-api-indonesian-v2'
+        ),
+        array(
+            'title' => 'Jadwal Sholat',
+            'source' => 'Jadwalsholat.org',
+            'link' => 'https://www.jadwalsholat.org'
+        ),
+     );
+
+
+$api = json_encode($dataCard);
+
 ?>
 
 <div class="main-content" id="<?php echo empty($_GET['page'])?'pageContent':''; ?>">
@@ -75,79 +112,27 @@
         <p><b>Data sources for Muslimorphosis</b></p>
 
         <div class="row container">
-        <div class="flip-card">
-            <div class="flip-card-inner">
-                <div class="flip-card-front">
-                    <p>Al-Qur'an</p>
-                </div>
-                <div class="flip-card-back">
-                    <a href="https://github.com/Zhirrr/islamic-rest-api-indonesian-v2" style="font-size:small;" target="_blank">Islamic API V2 - Zhirrr</a>
-                </div>
-            </div>
-        </div>
 
-        <div class="flip-card">
-            <div class="flip-card-inner">
-                <div class="flip-card-front">
-                    <p>Do'a - Do'a</p>
+            <?php
+                $i = 0;
+                foreach ($dataCard as $mydata){
+            ?>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <p><?=$mydata['title']?></p>
+                        </div>
+                        <div class="flip-card-back">
+                            <a href="<?=$mydata['link']?>" class="title-back-card" target="_blank"><?=$mydata['source']?></a>
+                        </div>
+                    </div>
                 </div>
-                <div class="flip-card-back">
-                    <a href="https://github.com/Zhirrr/islamic-rest-api-indonesian" style="font-size:small;" target="_blank">Islamic Rest API Official</a>
-                </div>
-            </div>
+                
+            <?php
+                $i += 1;
+                }
+            ?>
         </div>
-
-        <div class="flip-card">
-            <div class="flip-card-inner">
-                <div class="flip-card-front">
-                    <p>Kisah Nabi & Rasul</p>
-                </div>
-                <div class="flip-card-back">
-                    <a href="https://github.com/Zhirrr/islamic-rest-api-indonesian" style="font-size:small;" target="_blank">Islamic Rest API Official</a>
-                </div>
-            </div>
-        </div>
-
-        <div class="flip-card">
-            <div class="flip-card-inner">
-                <div class="flip-card-front">
-                    <p>Hadits - Hadits</p>
-                </div>
-                <div class="flip-card-back">
-                    <a href="https://github.com/Zhirrr/islamic-rest-api-indonesian-v2" style="font-size:small;" target="_blank">Islamic API V2 - Zhirrr</a>
-                </div>
-            </div>
-        </div>
-
-        <div class="flip-card">
-            <div class="flip-card-inner">
-                <div class="flip-card-front">
-                    <p>Wirid & Tahlil</p>
-                </div>
-                <div class="flip-card-back">
-                    <a href="https://github.com/Zhirrr/islamic-rest-api-indonesian-v2" style="font-size:small;" target="_blank">Islamic API V2 - Zhirrr</a>
-                </div>
-            </div>
-        </div>
-
-        <div class="flip-card">
-            <div class="flip-card-inner">
-                <div class="flip-card-front">
-                    <p>Jadwal Sholat</p>
-                </div>
-                <div class="flip-card-back">
-                    <a href="https://www.jadwalsholat.org" target="_blank" style="font-size:small;" class="normal-text">Jadwalsholat.org</a>
-                </div>
-            </div>
-        </div>
-        </div>
-<!-- 
-        <p><b>AL - QUR'AN PAGE :</b> <a href="https://github.com/Zhirrr/islamic-rest-api-indonesian-v2" target="_blank">Islamic API V2 - Zhirrr</a></p>
-        <p><b>Do'a - Do'a PAGE :</b> <a href="https://github.com/Zhirrr/islamic-rest-api-indonesian" target="_blank">Islamic Rest API Official</a></p>
-        <p><b>Kisah Nabi & Rasul PAGE :</b> <a href="https://github.com/Zhirrr/islamic-rest-api-indonesian" target="_blank">Islamic Rest API Official</a></p>
-        <p><b>Hadits - Hadits PAGE :</b> <a href="https://github.com/Zhirrr/islamic-rest-api-indonesian-v2" target="_blank">Islamic API V2 - Zhirrr</a></p>
-        <p><b>Wirid & Tahlil PAGE :</b> <a href="https://github.com/Zhirrr/islamic-rest-api-indonesian-v2" target="_blank">Islamic API V2 - Zhirrr</a></p>
-        <p><b>Jadwal Sholat :</b> <a href="https://www.jadwalsholat.org" target="_blank">Jadwalsholat.org</a></p> -->
     </div>
     
 </div>

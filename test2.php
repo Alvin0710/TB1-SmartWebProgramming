@@ -2,83 +2,67 @@
 <html>
 <head>
   <title>Hadits - Hadits Riwayat Abu Daud</title>
-  <style type="text/css" href="style.css"></style>
+  <style type="text/css" href="css/style.css"></style>
   <link rel="icon" href="images/LOGO.png">
 </head>
 <body>
 
 <?php
- include('header.php');
- $json_url = "json/abu-daud.json";
- $json = file_get_contents($json_url);
- $api = json_decode($json, TRUE);
+     $dataCard = array(
+            array(
+                'title' => 'Al-qur\'an',
+                'source' => 'Islamic API V2 - Zhirrr',
+                'link' => 'https://github.com/Zhirrr/islamic-rest-api-indonesian-v2'
+            ),
+            array(
+                'title' => 'Do\'a - Do\'a',
+                'source' => 'Islamic Rest API Official',
+                'link' => 'https://github.com/Zhirrr/islamic-rest-api-indonesian'
+            ),
+            array(
+                'title' => 'Kisah Nabi & Rasul',
+                'source' => 'Islamic Rest API Official',
+                'link' => 'https://github.com/Zhirrr/islamic-rest-api-indonesian'
+            ),
+            array(
+                'title' => 'Hadits - Hadits',
+                'source' => 'Islamic API V2 - Zhirrr',
+                'link' => 'https://github.com/Zhirrr/islamic-rest-api-indonesian-v2'
+            ),
+            array(
+                'title' => 'Wirid & Tahlil',
+                'source' => 'Islamic API V2 - Zhirrr',
+                'link' => 'https://github.com/Zhirrr/islamic-rest-api-indonesian-v2'
+            ),
+            array(
+                'title' => 'Jadwal Sholat',
+                'source' => 'Jadwalsholat.org',
+                'link' => 'https://www.jadwalsholat.org'
+            ),
+         );
+
+
+    $api = json_encode($dataCard);
 ?>
 
-<div class="container" style="padding-top: 10em; padding-bottom:10em;">
-    <h1 style="text-align: center;">Hadits - Hadits Riwayat Abu Daud</h1>
-</div>
-
-<div class="container input-icons">
-  <form class="example" style="margin:auto;max-width:900px">
-    <i class="fa fa-search icon-search justify-content-center align-self-center" width="30" ></i>
-    <input type="text" placeholder="Search.." id="myInput" class="input-field" onkeyup="myFunction()" onkeypress="return event.keyCode!=13">
-  </form>
-</div><br><br><br><br>
-
-<div id="data-hadits">
 <?php
-        $i = 0;
-        foreach ($api as $value){
-    ?>
-    <div class="container">
-        <p style="background: black; color:white; height:3.5vh; width:3.5vh;" class="numbering">
-            <?php echo $value['number'] ?>
-        </p>
-        <br><br>
-        <h3 class="arabic-text" align="right" style="font-family: 'Scheherazade', serif;"><?php echo $value['arab'] ?></h3>
-        <br>
-        <div style="text-align: justify;">
-            <p class="normal-text">"<?php echo $value['id'] ?>"</p>
+      $i = 0;
+    	foreach ($dataCard as $mydata){
+        ?>
+        <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <p><?=$mydata['title']?></p>
+                </div>
+                <div class="flip-card-back">
+                    <a href="<?=$mydata['link']?>" class="title-back-card" target="_blank"><?=$mydata['source']?></a>
+                </div>
+            </div>
         </div>
-    </div>
-<br>
-<hr>
-<br>
-    <?php
+        
+        <?php
         $i += 1;
-    }
-    ?>
-</div>
-
-<br>
-<br>
-<br>
-<br>
-    
-</div>
-<?php
-
-include('footer.php');
-?>
-
-<script>
-function myFunction() {
-    var input, filter, container, div, a, i, txtValue;
-    input = document.getElementById("myInput");
-    filter = input.value.toUpperCase();
-    container = document.getElementById("data-hadits");
-    div = container.getElementsByTagName("div");
-    for (i = 0; i < div.length; i++) {
-        a = div[i].getElementsByTagName("p")[0];
-        txtValue = a.textContent || a.innerText;
-        if (txtValue.toUpperCase().indexOf(filter) > -1) {
-            div[i].style.display = "";
-        } else {
-            div[i].style.display = "none";
-        }
-    }
-}
-</script>
-
+      }
+  ?>
 </body>
 </html>

@@ -56,53 +56,6 @@ body {
   height:55em;
 }
 
-/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
-.flip-card {
-  background-color: transparent;
-  width: 11em;
-  height: 2em;
-  border: 1px solid #f1f1f1;
-  margin: 1em 0.25em 0em 0em;
-}
-
-/* This container is needed to position the front and back side */
-.flip-card-inner {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  transition: transform 0.5s;
-  transform-style: preserve-3d;
-}
-
-/* Do an horizontal flip when you move the mouse over the flip box container */
-.flip-card:hover .flip-card-inner {
-  transform: rotateY(180deg);
-}
-
-/* Position the front and back side */
-.flip-card-front, .flip-card-back {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  -webkit-backface-visibility: hidden; /* Safari */
-  backface-visibility: hidden;
-}
-
-/* Style the front side (fallback if image is missing) */
-.flip-card-front {
-  background-color: #bbb;
-  color: black;
-}
-
-/* Style the back side */
-.flip-card-back {
-  background-color: dodgerblue;
-  color: white;
-  transform: rotateY(180deg);
-}
-
-
 /* ============================ index.php ================================ */
 
 section {
@@ -1029,35 +982,67 @@ iframe{
 }
 
 
-/* ============================= tebak.php ============================================== */
-.tebak-box{
-  background-color: white;
-  border: 2px solid #636363;
-  /* margin-left: .5em;
-  margin-right: .5em; */
-  margin-bottom: 1em;
-  height: 7em;
-  color: #636363;
-  padding-top: 3em;
+/* ============================= about.php ============================================== */
+/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-card {
+  background-color: transparent;
+  width: 11em;
+  height: 2em;
+  border: 1px solid #f1f1f1;
+  margin: 1em 0.25em 0em 0em;
 }
 
-.tebak-box:hover{
-  background-color: #636363;
-  color: white;
-} 
-
-/* .tebak-name{
-  position: absolute;
-  top: 50%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 5em;
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  position: relative;
   width: 100%;
-} */
-
-.tebak-name{
-  padding-top: 50%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.5s;
+  transform-style: preserve-3d;
 }
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+/* Style the back side */
+.flip-card-back {
+  background-color: rgba(0, 0, 0, 0.836);
+  color: white !important;
+  transform: rotateY(180deg);
+  font-size:small;
+}
+
+.title-back-card{
+  font-size:small;
+  color: white;
+  display: grid;
+  place-items: center;
+}
+
+.title-back-card:hover{
+  font-size:small;
+  color: white;
+}
+
+
 
 #desc{
   text-align: justify;
