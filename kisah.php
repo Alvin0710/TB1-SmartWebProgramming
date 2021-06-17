@@ -9,7 +9,8 @@
 
 <?php
  include('header.php');
- include('kisah_back.php');
+ $json = file_get_contents("json/kisahnabi.json");
+ $api = json_decode($json, TRUE);
 ?>
 
 <div class="main-content" id="<?php echo empty($_GET['page'])?'pageContent':''; ?>">

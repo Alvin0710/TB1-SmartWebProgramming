@@ -2,7 +2,7 @@
 <html>
 <head>
   <title>Ceramah</title>
-  <style type="text/css" href="style.css"></style>
+  <style type="text/css" href="css/style.css"></style>
   <link rel="icon" href="images/LOGO.png">
 </head>
 <body>

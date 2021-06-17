@@ -2,7 +2,7 @@
 <html>
 <head>
   <title>About Us</title>
-  <style type="text/css" href="style.css"></style>
+  <style type="text/css" href="css/style.css"></style>
   <link rel="icon" href="images/LOGO.png">
 
   <style>
@@ -54,21 +54,32 @@
             <div class="col-sm my-5">
                 <div class="container-team mx-auto d-block bg-dark" data-aos="fade-right" style="background-image: url('images/fauzi.jpg');background-size: cover;">
                 </div>
-                <p class="pt-3 text-center text-dark" data-aos="zoom-in"><b class="font-weight-bold">Muhammad Fauzi Maulana</b><br>
+                <p class="pt-3 text-center text-dark" data-aos="zoom-in"><a href="https://www.instagram.com/fauzimaulana.id/" target="_blank"><b class="font-weight-bold">Muhammad Fauzi Maulana</a></b><br>
                     University Student</p>
             </div>
             <div class="col-sm my-5">
                 <div class="container-team mx-auto d-block bg-dark" data-aos="zoom-out" style="background-image: url('images/alvin.jpg');background-size: cover;">
                 </div>
-                <p class="pt-3 text-center text-dark" data-aos="zoom-in"><b class="font-weight-bold">Alvin Irwanto</b><br>
+                <p class="pt-3 text-center text-dark" data-aos="zoom-in"><a href="https://www.instagram.com/alvinirwanto/" target="_blank"><b class="font-weight-bold">Alvin Irwanto</a></b><br>
                     University Student</p>
             </div>
             <div class="col-sm my-5">
                 <div class="container-team mx-auto d-block bg-dark" data-aos="fade-left" style="background-image: url('images/fajar.jpg');background-size: cover;"></div>
-                <p class="pt-3 text-center text-dark" data-aos="zoom-in"><b class="font-weight-bold">Fajar Bhaskoro Catur S.</b><br>
+                <p class="pt-3 text-center text-dark" data-aos="zoom-in"><a href="https://www.instagram.com/fajarrcaturr/" target="_blank"><b class="font-weight-bold">Fajar Bhaskoro Catur S.</a></b><br>
                     University Student</p>
             </div>
         </div>
+    </div>
+
+    <div class="container team">
+        <p><b>Data Sources for Muslimorphosis</b></p>
+        <p>AL - QUR'AN PAGE : <a href="https://github.com/Zhirrr/islamic-rest-api-indonesian-v2" target="_blank">Islamic Api V2 - Zhirrr</a></p>
+        <p>Do'a - Do'a PAGE : <a href="https://github.com/Zhirrr/islamic-rest-api-indonesian" target="_blank">Islamic Rest API Official</a></p>
+        <p>Kisah Nabi & Rasul PAGE : <a href="https://github.com/Zhirrr/islamic-rest-api-indonesian" target="_blank">Islamic Rest API Official</a></p>
+        <p>Hadits - Hadits PAGE : <a href="https://github.com/Zhirrr/islamic-rest-api-indonesian-v2" target="_blank">Islamic Api V2 - Zhirrr</a></p>
+        <p>Ceramah PAGE : <a href="https://www.youtube.com" target="_blank">Youtube</a></p>
+        <p>Wirid & Tahlil PAGE : <a href="https://github.com/Zhirrr/islamic-rest-api-indonesian-v2" target="_blank">Islamic Api V2 - Zhirrr</a></p>
+        <p>Jadwal Sholat : <a href="https://www.jadwalsholat.org" target="_blank">jadwalsholat.org</a></p>
     </div>
     
 </div>

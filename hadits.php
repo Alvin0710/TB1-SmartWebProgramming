@@ -36,43 +36,51 @@
 </div><br><br> -->
 </div>
 
+<?php
+
+// session_start();
+
+// $_SESSION['varname'] = "ahmad";
+
+?>
+
 <div class="row doa-row-main" id="data-doa">
-  <a href="abu_daud.php" class="col-lg-5 col-sm-1 col-md-5 doa-box pointer">
+  <a href="<?php echo "hadist-all.php?id=Abu Daud" ?>" class="col-lg-5 col-sm-1 col-md-5 doa-box pointer">
     <div>
       <h4 class="name-doa"><b>Riwayat Abu Daud</b></h4>
     </div>
   </a>
-  <a href="ahmad.php" class="col-lg-5 col-sm-1 col-md-5 doa-box pointer">
+  <a href="<?php echo "hadist-all.php?id=Ahmad" ?>" class="col-lg-5 col-sm-1 col-md-5 doa-box pointer">
     <div>
       <h4 class="name-doa"><b>Riwayat Ahmad</b></h4>
     </div>
   </a>
-  <a href="bukhari.php" class="col-lg-5 col-sm-1 col-md-5 doa-box pointer">
+  <a href="<?php echo "hadist-all.php?id=Bukhari" ?>" class="col-lg-5 col-sm-1 col-md-5 doa-box pointer">
     <div>
       <h4 class="name-doa"><b>Riwayat Bukhari</b></h4>
     </div>
   </a>
-  <a href="darimi.php" class="col-lg-5 col-sm-1 col-md-5 doa-box pointer">
+  <a href="<?php echo "hadist-all.php?id=Darimi" ?>" class="col-lg-5 col-sm-1 col-md-5 doa-box pointer">
     <div>
       <h4 class="name-doa"><b>Riwayat Darimi</b></h4>
     </div>
   </a>
-  <a href="ibnu_majah.php" class="col-lg-5 col-sm-1 col-md-5 doa-box pointer">
+  <a href="<?php echo "hadist-all.php?id=Ibnu Majah" ?>" class="col-lg-5 col-sm-1 col-md-5 doa-box pointer">
     <div>
       <h4 class="name-doa"><b>Riwayat Ibnu Majah</b></h4>
     </div>
   </a>
-  <a href="nasai.php" class="col-lg-5 col-sm-1 col-md-5 doa-box pointer">
+  <a href="<?php echo "hadist-all.php?id=Nasai" ?>" class="col-lg-5 col-sm-1 col-md-5 doa-box pointer">
     <div>
       <h4 class="name-doa"><b>Riwayat Nasai</b></h4>
     </div>
   </a>
-  <a href="malik.php" class="col-lg-5 col-sm-1 col-md-5 doa-box pointer">
+  <a href="<?php echo "hadist-all.php?id=Malik" ?>" class="col-lg-5 col-sm-1 col-md-5 doa-box pointer">
     <div>
       <h4 class="name-doa"><b>Riwayat Malik</b></h4>
     </div>
   </a>
-  <a href="muslim.php" class="col-lg-5 col-sm-1 col-md-5 doa-box pointer">
+  <a href="<?php echo "hadist-all.php?id=Muslim" ?>" class="col-lg-5 col-sm-1 col-md-5 doa-box pointer">
     <div>
       <h4 class="name-doa"><b>Riwayat Muslim</b></h4>
     </div>

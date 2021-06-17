@@ -2,7 +2,7 @@
 <html>
 <head>
   <title>Do'a - Do'a</title>
-  <style type="text/css" href="style.css"></style>
+  <style type="text/css" href="css/style.css"></style>
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Scheherazade:wght@700&display=swap" rel="stylesheet">
   <link rel="icon" href="images/LOGO.png">
