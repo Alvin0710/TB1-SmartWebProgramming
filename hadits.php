@@ -9,10 +9,6 @@
 
 <?php
  include('header.php');
-
- $json_url = "https://raw.githubusercontent.com/lakuapik/jadwalsholatorg/master/kota.json";
-  $json = file_get_contents($json_url);
-  $data = json_decode($json);
 ?>
 
 <div class="main-content" id="<?php echo empty($_GET['page'])?'pageContent':''; ?>">
