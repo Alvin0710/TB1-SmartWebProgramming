@@ -35,7 +35,7 @@
   <i class="fa fa-search icon-search" width="30" ></i>
   <!-- <img src="images/icon/search.svg" alt="" width="20" height="20"> -->
   <form class="example">
-    <input type="text" placeholder="Search.." id="myInput" class="input-field" onkeyup="myFunction()">
+    <input type="text" placeholder="Search.." id="myInput" onkeyup="myFunction()" title="Type in a name" onkeypress="return event.keyCode!=13">
   </form>
 </div>
     
@@ -73,15 +73,15 @@
 
         <!-- Modal Header -->
         <div class="modal-header">
-          <h4 class="modal-title"><?php echo $data->data[$i]->title;?></h4>
+          <p class="header-title"><?php echo $data->data[$i]->title;?></p>
           <button type="button" class="close" data-dismiss="modal">&times;</button>
         </div>
         
         <!-- Modal body -->
         <div class="modal-body">
-        <h2 align="right" style="font-family: 'Scheherazade', serif;"><?php echo $data->data[$i]->arabic;?></b></h2><br><br>
-        <p><i><?php echo $data->data[$i]->latin;?></i></p>
-        <p><?php echo $data->data[$i]->translation;?></p>
+        <p class="arabic-text" align="right" style="font-family: 'Scheherazade', serif;"><?php echo $data->data[$i]->arabic;?></h2><br><br>
+        <p class="normal-text"><i><?php echo $data->data[$i]->latin;?></i></p>
+        <p class="normal-text"><?php echo $data->data[$i]->translation;?></p>
         </div>
         
         <!-- Modal footer -->

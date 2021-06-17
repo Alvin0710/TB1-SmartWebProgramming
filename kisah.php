@@ -4,6 +4,8 @@
   <title>Kisah - Kisah Nabi & Rasul</title>
   <style type="text/css" href="style.css"></style>
   <link rel="icon" href="images/LOGO.png">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Scheherazade:wght@700&display=swap" rel="stylesheet">
 </head>
 <body>
 
@@ -28,12 +30,11 @@
 
 <div class="container input-icons">
   <form class="example" style="margin:auto;max-width:900px">
-
     <i class="fa fa-search icon-search justify-content-center align-self-center" width="30" ></i>
-
-  <input type="text" placeholder="Search.." id="myInput" class="input-field" onkeyup="myFunction()">
+    <input type="text" placeholder="Search.." id="myInput" class="input-field" onkeyup="myFunction()" onkeypress="return event.keyCode!=13">
   </form>
 </div>
+
 </div>
 
 <br>
@@ -66,14 +67,14 @@
 
         <!-- Modal Header -->
         <div class="modal-header">
-          <h4 class="modal-title"><?php echo $api[$i]['name'];?></h4>
+          <p class="header-title"><?php echo $api[$i]['name'];?></p>
           <button type="button" class="close" data-dismiss="modal">&times;</button>
         </div>
         
         <!-- Modal body -->
         <div class="modal-body">
         <img style="width: 100%;" src="<?php echo $api[$i]['image_url'];?>" alt=""><br><br>
-        <p id="desc"><?php echo $api[$i]['description'];?></p>
+        <p id="desc" class="normal-text"><?php echo $api[$i]['description'];?></p>
         </div>
         
         <!-- Modal footer -->

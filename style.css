@@ -38,6 +38,22 @@ body {
   padding: 10px;
 }
 
+.arabic-text{
+  font-size: xx-large;
+}
+
+.normal-text{
+  font-size: medium;
+}
+
+.numbering{
+  font-size: medium;
+}
+
+.header-title{
+  font-size: x-large;
+  font-weight: bold;
+}
 
 /* ============================ index.php ================================ */
 
@@ -339,9 +355,13 @@ form.example::after {
 .name-doa{
   position: absolute;
   top: 50%;
-  margin-left: auto;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* margin-left: auto;
   margin-right: auto;
-  margin-bottom: 5em;
+  margin-bottom: 5em; */
+  padding-left: 2em;
+  padding-right: 2em;
   width: 100%;
 }
 
@@ -355,7 +375,7 @@ form.example::after {
 .doa-box{
   background-color: white;
   border: 2px solid #636363;
-  padding-left: 3em;
+
   margin-left: .5em;
   margin-right: .5em;
   margin-bottom: 1em;
@@ -493,6 +513,22 @@ iframe{
     width: 70px;
     height: 70px;
   }
+
+  .arabic-text{
+    font-size: x-large;
+  }
+  
+  .normal-text{
+    font-size: small;
+  }
+  
+  .numbering{
+    font-size: small;
+  }
+
+  /* #desc{
+    text-align: left;
+  } */
 }
 
 /* @media only screen and (max-width: 768px) {

@@ -1,7 +1,7 @@
 <?php
     //  $json_url = "https://islamic-api-indonesia.herokuapp.com/api/data/json/tahlil";
     $json = file_get_contents("https://api.quran.sutanlab.id/surah/2");
-    $data = json_decode($json);
+    $data = json_decode($json, true);
     ?>
     
     <?php
@@ -11,7 +11,7 @@
         
         // $length = $data->data->numberOfVerses;
         $i = 0;
-        foreach ($data->data as $mydata){
+        foreach ($data['data'] as $mydata){
             // error_reporting(0);
             // if ($i <= $length){
                 // echo $data->data->verses[$i]->text->arab."<br>";
@@ -19,8 +19,8 @@
             //     echo break;
             // }
     
-            echo $data->data->verses[$i]->text->arab."<br>";
-            echo $data->data->verses[$i]->translation->id."<br>";
+            echo $mydata->verses[$i]->text->arab."<br>";
+            echo $mydata->verses[$i]->translation->id."<br>";
     
         $i += 1;
         }
