@@ -2,13 +2,9 @@
 <html>
 <head>
   <title>Al-Qur'an</title>
-<<<<<<< HEAD
   <style type="text/css" href="css/style.css"></style>
-=======
-  <style type="text/css" href="style.css"></style>
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Scheherazade:wght@700&display=swap" rel="stylesheet">
->>>>>>> 784955dfef5ec350d35ccedcbffc1c2446c326a4
   <link rel="icon" href="images/LOGO.png">
 </head>
 <body>
