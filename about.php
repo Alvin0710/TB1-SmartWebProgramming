@@ -55,31 +55,31 @@
                 <div class="container-team mx-auto d-block bg-dark" data-aos="fade-right" style="background-image: url('images/fauzi.jpg');background-size: cover;">
                 </div>
                 <p class="pt-3 text-center text-dark" data-aos="zoom-in"><a href="https://www.instagram.com/fauzimaulana.id/" target="_blank"><b class="font-weight-bold">Muhammad Fauzi Maulana</a></b><br>
-                    University Student</p>
+                    41518010003</p>
             </div>
             <div class="col-sm my-5">
                 <div class="container-team mx-auto d-block bg-dark" data-aos="zoom-out" style="background-image: url('images/alvin.jpg');background-size: cover;">
                 </div>
                 <p class="pt-3 text-center text-dark" data-aos="zoom-in"><a href="https://www.instagram.com/alvinirwanto/" target="_blank"><b class="font-weight-bold">Alvin Irwanto</a></b><br>
-                    University Student</p>
+                    41518010055</p>
             </div>
             <div class="col-sm my-5">
                 <div class="container-team mx-auto d-block bg-dark" data-aos="fade-left" style="background-image: url('images/fajar.jpg');background-size: cover;"></div>
                 <p class="pt-3 text-center text-dark" data-aos="zoom-in"><a href="https://www.instagram.com/fajarrcaturr/" target="_blank"><b class="font-weight-bold">Fajar Bhaskoro Catur S.</a></b><br>
-                    University Student</p>
+                    41518010041</p>
             </div>
         </div>
     </div>
 
     <div class="container team">
-        <p><b>Data Sources for Muslimorphosis</b></p>
-        <p>AL - QUR'AN PAGE : <a href="https://github.com/Zhirrr/islamic-rest-api-indonesian-v2" target="_blank">Islamic Api V2 - Zhirrr</a></p>
-        <p>Do'a - Do'a PAGE : <a href="https://github.com/Zhirrr/islamic-rest-api-indonesian" target="_blank">Islamic Rest API Official</a></p>
-        <p>Kisah Nabi & Rasul PAGE : <a href="https://github.com/Zhirrr/islamic-rest-api-indonesian" target="_blank">Islamic Rest API Official</a></p>
-        <p>Hadits - Hadits PAGE : <a href="https://github.com/Zhirrr/islamic-rest-api-indonesian-v2" target="_blank">Islamic Api V2 - Zhirrr</a></p>
-        <p>Ceramah PAGE : <a href="https://www.youtube.com" target="_blank">Youtube</a></p>
-        <p>Wirid & Tahlil PAGE : <a href="https://github.com/Zhirrr/islamic-rest-api-indonesian-v2" target="_blank">Islamic Api V2 - Zhirrr</a></p>
-        <p>Jadwal Sholat : <a href="https://www.jadwalsholat.org" target="_blank">jadwalsholat.org</a></p>
+        <p><b>DATA SOURCES FOR MUSLIMORPHOSIS</b></p>
+        <p><b>AL - QUR'AN PAGE :</b> <a href="https://github.com/Zhirrr/islamic-rest-api-indonesian-v2" target="_blank">Islamic API V2 - Zhirrr</a></p>
+        <p><b>Do'a - Do'a PAGE :</b> <a href="https://github.com/Zhirrr/islamic-rest-api-indonesian" target="_blank">Islamic Rest API Official</a></p>
+        <p><b>Kisah Nabi & Rasul PAGE :</b> <a href="https://github.com/Zhirrr/islamic-rest-api-indonesian" target="_blank">Islamic Rest API Official</a></p>
+        <p><b>Hadits - Hadits PAGE :</b> <a href="https://github.com/Zhirrr/islamic-rest-api-indonesian-v2" target="_blank">Islamic API V2 - Zhirrr</a></p>
+        <p><b>Ceramah PAGE :</b> <a href="https://www.youtube.com" target="_blank">Youtube</a></p>
+        <p><b>Wirid & Tahlil PAGE :</b> <a href="https://github.com/Zhirrr/islamic-rest-api-indonesian-v2" target="_blank">Islamic API V2 - Zhirrr</a></p>
+        <p><b>Jadwal Sholat :</b> <a href="https://www.jadwalsholat.org" target="_blank">Jadwalsholat.org</a></p>
     </div>
     
 </div>

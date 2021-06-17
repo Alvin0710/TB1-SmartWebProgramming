@@ -99,6 +99,11 @@ window.onscroll = function() {
       <div class="modal-dialog modal-xl">
       <div class="modal-content">
         
+        <!-- Modal Header -->
+        <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+
         <!-- Modal body -->
         <div class="modal-body">
         <p style="text-align: center;">
