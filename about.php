@@ -72,14 +72,82 @@
     </div>
 
     <div class="container team">
-        <p><b>DATA SOURCES FOR MUSLIMORPHOSIS</b></p>
+        <p><b>Data sources for Muslimorphosis</b></p>
+
+        <div class="row container">
+        <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <p>Al-Qur'an</p>
+                </div>
+                <div class="flip-card-back">
+                    <a href="https://github.com/Zhirrr/islamic-rest-api-indonesian-v2" style="font-size:small;" target="_blank">Islamic API V2 - Zhirrr</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <p>Do'a - Do'a</p>
+                </div>
+                <div class="flip-card-back">
+                    <a href="https://github.com/Zhirrr/islamic-rest-api-indonesian" style="font-size:small;" target="_blank">Islamic Rest API Official</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <p>Kisah Nabi & Rasul</p>
+                </div>
+                <div class="flip-card-back">
+                    <a href="https://github.com/Zhirrr/islamic-rest-api-indonesian" style="font-size:small;" target="_blank">Islamic Rest API Official</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <p>Hadits - Hadits</p>
+                </div>
+                <div class="flip-card-back">
+                    <a href="https://github.com/Zhirrr/islamic-rest-api-indonesian-v2" style="font-size:small;" target="_blank">Islamic API V2 - Zhirrr</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <p>Wirid & Tahlil</p>
+                </div>
+                <div class="flip-card-back">
+                    <a href="https://github.com/Zhirrr/islamic-rest-api-indonesian-v2" style="font-size:small;" target="_blank">Islamic API V2 - Zhirrr</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <p>Jadwal Sholat</p>
+                </div>
+                <div class="flip-card-back">
+                    <a href="https://www.jadwalsholat.org" target="_blank" style="font-size:small;" class="normal-text">Jadwalsholat.org</a>
+                </div>
+            </div>
+        </div>
+        </div>
+<!-- 
         <p><b>AL - QUR'AN PAGE :</b> <a href="https://github.com/Zhirrr/islamic-rest-api-indonesian-v2" target="_blank">Islamic API V2 - Zhirrr</a></p>
         <p><b>Do'a - Do'a PAGE :</b> <a href="https://github.com/Zhirrr/islamic-rest-api-indonesian" target="_blank">Islamic Rest API Official</a></p>
         <p><b>Kisah Nabi & Rasul PAGE :</b> <a href="https://github.com/Zhirrr/islamic-rest-api-indonesian" target="_blank">Islamic Rest API Official</a></p>
         <p><b>Hadits - Hadits PAGE :</b> <a href="https://github.com/Zhirrr/islamic-rest-api-indonesian-v2" target="_blank">Islamic API V2 - Zhirrr</a></p>
-        <p><b>Ceramah PAGE :</b> <a href="https://www.youtube.com" target="_blank">Youtube</a></p>
         <p><b>Wirid & Tahlil PAGE :</b> <a href="https://github.com/Zhirrr/islamic-rest-api-indonesian-v2" target="_blank">Islamic API V2 - Zhirrr</a></p>
-        <p><b>Jadwal Sholat :</b> <a href="https://www.jadwalsholat.org" target="_blank">Jadwalsholat.org</a></p>
+        <p><b>Jadwal Sholat :</b> <a href="https://www.jadwalsholat.org" target="_blank">Jadwalsholat.org</a></p> -->
     </div>
     
 </div>
