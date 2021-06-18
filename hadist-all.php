@@ -46,7 +46,7 @@ if ($a == "Abu Daud") {
 <div class="container input-icons">
   <form class="example" style="margin:auto;max-width:900px">
     <i class="fa fa-search icon-search justify-content-center align-self-center" width="30" ></i>
-    <input type="text" placeholder="Search.." id="myInput" class="input-field" onkeyup="myFunction()" onkeypress="return event.keyCode!=13">
+    <input type="text" placeholder="Search.." id="myInput" type="number" class="input-field" onkeyup="myFunction()" onkeypress="return event.keyCode!=13">
   </form>
 </div><br><br><br><br>
 
@@ -55,18 +55,12 @@ if ($a == "Abu Daud") {
         $i = 0;
         foreach ($api as $value){
     ?>
-        <center style="background: black; color:white; height:3.5vh; width:3.5vh;" class="numbering">
-            <p><?php echo $value['number'] ?></p>
-        </center>
-        <br><br>
-        <h3 class="arabic-text" align="right" style="font-family: 'Scheherazade', serif;"><?php echo $value['arab'] ?></h3>
-        <br>
-        <div style="text-align: justify;">
-            <p class="normal-text">"<?php echo $value['id'] ?>"</p>
+        <div>
+            <p id="numbering-hadits" class="numbering"><?php echo $value['number'] ?></p>
+            <br><br>
+            <h3 class="arabic-text" align="right" style="font-family: 'Scheherazade', serif;"><?php echo $value['arab'] ?></h3><br>
+            <p class="normal-text" style="text-align: justify;">"<?php echo $value['id'] ?>"</p><br><br><hr><br><br>
         </div>
-<br>
-<hr>
-<br>
     <?php
         $i += 1;
     }
@@ -90,7 +84,7 @@ function myFunction() {
     input = document.getElementById("myInput");
     filter = input.value.toUpperCase();
     container = document.getElementById("data-hadits");
-    div = container.getElementsByTagName("center");
+    div = container.getElementsByTagName("div");
     for (i = 0; i < div.length; i++) {
         a = div[i].getElementsByTagName("p")[0];
         txtValue = a.textContent || a.innerText;

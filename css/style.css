@@ -496,22 +496,15 @@ iframe{
   white-space: pre-wrap;
 }
 
-
-
-@media only screen and (max-width: 480px) {
-  .doa-box{
-    padding-left: .3em;
-    margin-left: .2em;
-    margin-right: .2em;
-    margin-bottom: 1em;
-  }
-
-  .icon-search {
-    padding: 4.5%;
-    width: 70px;
-    height: 70px;
-  }
+#numbering-hadits{
+  background: black; 
+  color:white; 
+  height:3.5vh; 
+  width:5vh;
+  display: grid;
+  place-items: center;
 }
+
 
 /* @media only screen and (max-width: 768px) {
   .icon-container {
@@ -574,6 +567,8 @@ body {
   font-size: x-large;
   font-weight: bold;
 }
+
+
 
 /* ============================ index.php ================================ */
 
