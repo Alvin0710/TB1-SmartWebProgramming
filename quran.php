@@ -81,7 +81,7 @@
                     } elseif ($n == 9){
                         echo "";
                     } else{
-                       echo "<p class=\"arabic-text\" align=\"center\" style=\"font-family: \'Scheherazade\', serif;\">- بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ -</h2><br><br>";
+                       echo "<br><br><p class=\"arabic-text\" align=\"center\" style=\"font-family: \'Scheherazade\', serif;\">- بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ -</h2><br><br>";
                     }
                     foreach ($value['verses'] as $val){  
                 ?>
