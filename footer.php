@@ -3,7 +3,7 @@
     <script src="js/app.js"></script>
     <script>
         function openNav() {
-            document.getElementById("mySidenav").style.width = "20em";
+            document.getElementById("mySidenav").style.width = "19em";
         }
 
         function closeNav() {
