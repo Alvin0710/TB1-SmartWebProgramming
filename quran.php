@@ -33,7 +33,7 @@
 <div class="container input-icons">
   <form class="example" style="margin:auto;max-width:900px">
     <i class="fa fa-search icon-search justify-content-center align-self-center" width="30" ></i>
-    <input type="text" placeholder="Search.." id="myInput" class="input-field" onkeyup="myFunction()" onkeypress="return event.keyCode!=13">
+    <input type="text" placeholder="Mau baca Surah apa hari ini?" id="myInput" class="input-field" onkeyup="myFunction()" onkeypress="return event.keyCode!=13">
   </form>
 </div>
 </div><br><br>

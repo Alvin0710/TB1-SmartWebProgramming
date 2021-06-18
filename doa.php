@@ -35,7 +35,7 @@
   <i class="fa fa-search icon-search" width="30" ></i>
   <!-- <img src="images/icon/search.svg" alt="" width="20" height="20"> -->
   <form class="example">
-    <input type="text" placeholder="Search.." id="myInput" onkeyup="myFunction()" title="Type in a name" onkeypress="return event.keyCode!=13">
+    <input type="text" placeholder="Kamu mau baca do'a apa?" id="myInput" onkeyup="myFunction()" title="Type in a name" onkeypress="return event.keyCode!=13">
   </form>
 </div>
     
