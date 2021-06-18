@@ -62,35 +62,43 @@
         $v = 0;
         $json = file_get_contents("json/quran.json");
         $api = json_decode($json, TRUE);
-            foreach ($api['result']['data'] as $value){
+        foreach ($api['result']['data'] as $value){
     ?>
-                <div class="modal fade" id="myModal<?php echo $v; ?>">
-                <div class="modal-dialog modal-xl">
-                <div class="modal-content">
+            <div class="modal fade" id="myModal<?php echo $v; ?>">
+            <div class="modal-dialog modal-xl">
+            <div class="modal-content">
 
-                <!-- Modal Header -->
-                <div class="modal-header">
-                <p class="header-title"><?php echo $value['name']['transliteration']['id']."  "?>(<?php echo $value['name']['short']?>)</p><br><br>
-                <button type="button" class="close" data-dismiss="modal">&times;</button>
-                </div>
-                    <?php
-                        $y = 0;
-                        foreach ($value['verses'] as $val){  
-                    ?>
-                      <!-- Modal body -->
-                      <div class="modal-body">
-                        <div style="background: black; color:white; height:1.5em; width:1.5em;">
-                          <center class="numbering"><p><?php echo $val['number']['inSurah'] ?></p></center>
-                        </div><br>
-                        <p class="arabic-text" align="right" style="font-family: 'Scheherazade', serif;"><?php echo $val['text']['arab']?></h2><br><br>
-                        <p><i class="normal-text"><?php echo $val['text']['transliteration']['en']?></i></p>
-                        <p class="normal-text"><?php echo $val['translation']['id']?></p>
-                      </div>
-                      <hr>
-                    <?php
-                        $y += 1;
-                        }
-                    ?>
+            <!-- Modal Header -->
+            <div class="modal-header">
+            <p class="header-title"><?php echo $value['name']['transliteration']['id']."  "?>(<?php echo $value['name']['short']?>)</p><br><br>
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+                <?php
+                    $y = 0;
+                    $n = $value['number'];
+                    if ($n == 1){
+                       echo "";
+                    } elseif ($n == 9){
+                        echo "";
+                    } else{
+                       echo "<p class=\"arabic-text\" align=\"center\" style=\"font-family: \'Scheherazade\', serif;\">- بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ -</h2><br><br>";
+                    }
+                    foreach ($value['verses'] as $val){  
+                ?>
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                    <div style="background: black; color:white; height:1.5em; width:1.5em;">
+                        <center class="numbering"><p><?php echo $val['number']['inSurah'] ?></p></center>
+                    </div><br>
+                    <p class="arabic-text" align="right" style="font-family: 'Scheherazade', serif;"><?php echo $val['text']['arab']?></h2><br><br>
+                    <p><i class="normal-text"><?php echo $val['text']['transliteration']['en']?></i></p>
+                    <p class="normal-text"><?php echo $val['translation']['id']?></p>
+                    </div>
+                    <hr>
+                <?php
+                    $y += 1;
+                    }
+                ?>
                     
                 <!-- Modal footer -->
                 <div class="modal-footer">
